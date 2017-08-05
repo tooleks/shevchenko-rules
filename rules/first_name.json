@@ -1,0 +1,70 @@
+[
+  {
+    "description": "ім'я федір",
+    "priority": 5,
+    "gender": ["male"],
+    "regexp": {
+      "find": "^федір$",
+      "modify": "ір$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "федір"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["ора"],
+      "dative": ["ору", "орові"],
+      "accusative": ["ора"],
+      "ablative": ["ором"],
+      "locative": ["орові"],
+      "vocative": ["оре"]
+    }
+  },
+  {
+    "description": "ім'я ігор",
+    "types": ["firstName"],
+    "priority": 4,
+    "gender": ["male"],
+    "regexp": {
+      "find": "^ігор$",
+      "modify": "^ігор$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "ігор"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["ігоря"],
+      "dative": ["ігорю", "ігореві"],
+      "accusative": ["ігоря"],
+      "ablative": ["ігорем"],
+      "locative": ["ігорю", "ігореві"],
+      "vocative": ["ігорю"]
+    }
+  },
+  {
+    "description": "жіночі імена на -ов",
+    "types": ["firstName"],
+    "priority": 2,
+    "gender": ["female"],
+    "regexp": {
+      "find": "ов$",
+      "modify": ""
+    },
+    "applyType": "append",
+    "examples": [
+      "любов"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["і"],
+      "dative": ["і"],
+      "accusative": [""],
+      "ablative": ["'ю"],
+      "locative": ["і"],
+      "vocative": ["е"]
+    }
+  }
+]

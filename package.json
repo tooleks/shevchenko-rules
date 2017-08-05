@@ -1,0 +1,40 @@
+{
+  "name": "shevchenko-rules",
+  "version": "0.0.0",
+  "description": "Set of rules for \"shevchenko\" libraries to inflect Ukrainian first, last and middle names.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "inflection",
+    "ukrainian",
+    "language",
+    "names",
+    "nominative",
+    "genitive",
+    "dative",
+    "accusative",
+    "ablative",
+    "locative",
+    "vocative"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tooleks/shevchenko-rules.git"
+  },
+  "author": "Oleksandr Tolochko <tooleks@gmail.com>",
+  "contributors": [
+    "Anna Pohorielova <anya.pogorelova@gmail.com>",
+    "Tetyana Tolochko"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tooleks/shevchenko-rules/issues"
+  },
+  "homepage": "https://github.com/tooleks/shevchenko-rules#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

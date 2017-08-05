@@ -1,0 +1,404 @@
+[
+  {
+    "description": "друга відміна / чоловічий рід / тверда група / нульове закінчення на -[^в]іт",
+    "priority": 3,
+    "gender": ["male"],
+    "regexp": {
+      "find": "[^в]іт$",
+      "modify": "іт$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "кіт"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["ота"],
+      "dative": ["оту", "отові"],
+      "accusative": ["ота"],
+      "ablative": ["отом"],
+      "locative": ["отові"],
+      "vocative": ["оте"]
+    }
+  },
+  {
+    "description": "перша відміна / чоловічий, жіночий роди / тверда група / закінчення на -га",
+    "priority": 2,
+    "gender": ["female"],
+    "regexp": {
+      "find": "га$",
+      "modify": "га$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "ольга"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["ги"],
+      "dative": ["зі"],
+      "accusative": ["гу"],
+      "ablative": ["гою"],
+      "locative": ["зі"],
+      "vocative": ["го"]
+    }
+  },
+  {
+    "description": "перша відміна / чоловічий, жіночий роди / тверда група / закінчення на -ка",
+    "priority": 2,
+    "gender": ["male", "female"],
+    "regexp": {
+      "find": "ка$",
+      "modify": "ка$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "аничка"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["ки"],
+      "dative": ["ці"],
+      "accusative": ["ку"],
+      "ablative": ["кою"],
+      "locative": ["ці"],
+      "vocative": ["ко"]
+    }
+  },
+  {
+    "description": "перша відміна / чоловічий, жіночий роди / мішана група",
+    "priority": 2,
+    "gender": ["male", "female"],
+    "regexp": {
+      "find": "(ш|ч|ж|дж)а$",
+      "modify": "а$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "саша"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["і"],
+      "dative": ["і"],
+      "accusative": ["у"],
+      "ablative": ["ею"],
+      "locative": ["і"],
+      "vocative": ["о"]
+    }
+  },
+  {
+    "description": "перша відміна / чоловічий, жіночий роди / м'яка група / основа на Й / закінчення на -я",
+    "priority": 2,
+    "gender": ["male", "female"],
+    "regexp": {
+      "find": "(і|ь)я$",
+      "modify": "я$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "юлія"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["ї"],
+      "dative": ["ї"],
+      "accusative": ["ю"],
+      "ablative": ["єю"],
+      "locative": ["ї"],
+      "vocative": ["є"]
+    }
+  },
+  {
+    "description": "перша відміна / жіночий рід / м'яка група / основа на м'який приголосний / закінчення на -*я",
+    "priority": 2,
+    "gender": ["female"],
+    "regexp": {
+      "find": "(ц|к|н|г|щ|з|х|ґ|ф|в|п|р|л|д|с|м|т|б)я$",
+      "modify": "я$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "неля"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["і"],
+      "dative": ["і"],
+      "accusative": ["ю"],
+      "ablative": ["ею"],
+      "locative": ["і"],
+      "vocative": ["ю"]
+    }
+  },
+  {
+    "description": "перша відміна / чоловічий рід / м'яка група / основа на м'який приголосний / закінчення на -ля",
+    "types": ["firstName"],
+    "priority": 2,
+    "gender": ["male"],
+    "regexp": {
+      "find": "ля$",
+      "modify": "я$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "ілля"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["і"],
+      "dative": ["і"],
+      "accusative": ["ю"],
+      "ablative": ["ею"],
+      "locative": ["і"],
+      "vocative": ["е"]
+    }
+  },
+  {
+    "description": "друга відміна / чоловічий рід / тверда група / закінчення на -о",
+    "priority": 2,
+    "gender": ["male"],
+    "regexp": {
+      "find": "(ц|н|г|щ|з|х|ґ|ф|в|п|р|л|д|с|м|т|б)о$",
+      "modify": "о$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "петро",
+      "павло"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["а"],
+      "dative": ["у", "ові"],
+      "accusative": ["а"],
+      "ablative": ["ом"],
+      "locative": ["ові", "і"],
+      "vocative": ["е"]
+    }
+  },
+  {
+    "description": "друга відміна / чоловічий рід / тверда група / закінчення на -ко",
+    "priority": 2,
+    "gender": ["male"],
+    "regexp": {
+      "find": "ко$",
+      "modify": "о$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "марко"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["а"],
+      "dative": ["у", "ові"],
+      "accusative": ["а"],
+      "ablative": ["ом"],
+      "locative": ["ові"],
+      "vocative": ["у"]
+    }
+  },
+  {
+    "description": "третя відміна на -ль",
+    "priority": 2,
+    "gender": ["female"],
+    "regexp": {
+      "find": "ль$",
+      "modify": "ь$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "нінель"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["і"],
+      "dative": ["і"],
+      "accusative": [""],
+      "ablative": ["лю"],
+      "locative": ["і"],
+      "vocative": ["е"]
+    }
+  },
+  {
+    "description": "перша відміна / чоловічий, жіночий рід / тверда група / закінчення на -ха",
+    "types": ["lastName"],
+    "priority": 2,
+    "gender": ["male", "female"],
+    "regexp": {
+      "find": "ха$",
+      "modify": "ха$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "старуха"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["хи"],
+      "dative": ["сі"],
+      "accusative": ["ху"],
+      "ablative": ["хою"],
+      "locative": ["сі"],
+      "vocative": ["хо", "ха"]
+    }
+  },
+  {
+    "description": "перша відміна / чоловічий, жіночий рід / тверда група / закінчення на -га",
+    "types": ["lastName"],
+    "priority": 2,
+    "gender": ["male", "female"],
+    "regexp": {
+      "find": "га$",
+      "modify": "га$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "нудьга"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["ги"],
+      "dative": ["зі"],
+      "accusative": ["гу"],
+      "ablative": ["гою"],
+      "locative": ["зі"],
+      "vocative": ["го", "га"]
+    }
+  },
+  {
+    "description": "перша відміна / чоловічий, жіночий роди / тверда група / закінчення на -а",
+    "priority": 1,
+    "gender": ["male", "female"],
+    "regexp": {
+      "find": "а$",
+      "modify": "а$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "анна"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["и"],
+      "dative": ["і"],
+      "accusative": ["у"],
+      "ablative": ["ою"],
+      "locative": ["і"],
+      "vocative": ["о"]
+    }
+  },
+  {
+    "description": "друга відміна / чоловічий рід / тверда група / нульове закінчення",
+    "priority": 1,
+    "gender": ["male"],
+    "regexp": {
+      "find": "(ц|к|н|щ|з|х|ф|в|п|р|л|д|с|м|т|б)$",
+      "modify": ""
+    },
+    "applyType": "append",
+    "examples": [
+      "олександр"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["а"],
+      "dative": ["у", "ові"],
+      "accusative": ["а"],
+      "ablative": ["ом"],
+      "locative": ["ові", "і"],
+      "vocative": ["е"]
+    }
+  },
+  {
+    "description": "друга відміна / чоловічий рід / тверда група / нульове закінчення на -г, -ґ",
+    "priority": 1,
+    "gender": ["male"],
+    "regexp": {
+      "find": "(г|ґ)$",
+      "modify": ""
+    },
+    "applyType": "append",
+    "examples": [
+      "грег"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["а"],
+      "dative": ["у", "ові"],
+      "accusative": ["а"],
+      "ablative": ["ом"],
+      "locative": ["ові"],
+      "vocative": ["у"]
+    }
+  },
+  {
+    "description": "друга відміна / чоловічий рід / м'яка група / основа на Й",
+    "priority": 1,
+    "gender": ["male"],
+    "regexp": {
+      "find": "й$",
+      "modify": "й$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "валерій",
+      "андрій"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["я"],
+      "dative": ["ю", "єві"],
+      "accusative": ["я"],
+      "ablative": ["єм"],
+      "locative": ["єві", "ю", "ї"],
+      "vocative": ["ю"]
+    }
+  },
+  {
+    "description": "друга відміна / чоловічий рід / м'яка група / основа на Ь",
+    "priority": 1,
+    "gender": ["male"],
+    "regexp": {
+      "find": "ь$",
+      "modify": "ь$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "василь"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["я"],
+      "dative": ["ю", "еві"],
+      "accusative": ["я"],
+      "ablative": ["ем"],
+      "locative": ["еві", "ю", "і"],
+      "vocative": ["ю"]
+    }
+  },
+  {
+    "description": "друга відміна / чоловічий рід / мішана група",
+    "priority": 1,
+    "gender": ["male"],
+    "regexp": {
+      "find": "(ш|ч|ж|дж)$",
+      "modify": ""
+    },
+    "applyType": "append",
+    "examples": [
+      "януш",
+      "джордж"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["а"],
+      "dative": ["у", "еві"],
+      "accusative": ["а"],
+      "ablative": ["ем"],
+      "locative": ["еві", "і", "у"],
+      "vocative": ["е"]
+    }
+  }
+]
