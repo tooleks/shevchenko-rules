@@ -268,6 +268,28 @@
     }
   },
   {
+    "description": "друга відміна / чоловічий рід / тверда група / на -ок",
+    "priority": 2,
+    "gender": ["male"],
+    "regexp": {
+      "find": "ок$",
+      "modify": "ок$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "сашок"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["ка"],
+      "dative": ["ку", "кові"],
+      "accusative": ["ка"],
+      "ablative": ["ком"],
+      "locative": ["кові"],
+      "vocative": ["ку"]
+    }
+  },
+  {
     "description": "друга відміна / середній рід / м'яка група / на -е",
     "priority": 1,
     "gender": ["male", "female"],
