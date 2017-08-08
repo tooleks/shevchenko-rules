@@ -5,7 +5,7 @@
     "priority": 7,
     "gender": ["male"],
     "regexp": {
-      "find": "^(жнець|швець|чернець|перець)$",
+      "find": "^(жнець|швець|чернець)$",
       "modify": "ць$"
     },
     "applyType": "replace",
