@@ -70,7 +70,7 @@
     "priority": 2,
     "gender": ["male", "female"],
     "regexp": {
-      "find": "(ш|ч|ж|дж)а$",
+      "find": "(дж|ж|ч|ш)а$",
       "modify": "а$"
     },
     "applyType": "replace",
@@ -114,7 +114,7 @@
     "priority": 2,
     "gender": ["female"],
     "regexp": {
-      "find": "(ц|к|н|г|щ|з|х|ґ|ф|в|п|р|л|д|с|м|т|б)я$",
+      "find": "(б|в|г|ґ|д|дз|дж|ж|з|й|к|л|м|н|п|р|с|т|ф|х|ц|ч|ш|щ)я$",
       "modify": "я$"
     },
     "applyType": "replace",
