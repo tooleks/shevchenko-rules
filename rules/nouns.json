@@ -290,11 +290,33 @@
     }
   },
   {
-    "description": "друга відміна / середній рід / м'яка група / на -е",
+    "description": "друга відміна / середній рід / на -е, окрім -ле",
     "priority": 1,
     "gender": ["male", "female"],
     "regexp": {
-      "find": "е$",
+      "find": "[^л]е$",
+      "modify": "е$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "прізвище"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["а"],
+      "dative": ["у"],
+      "accusative": [""],
+      "ablative": ["ем"],
+      "locative": ["і"],
+      "vocative": [""]
+    }
+  },
+  {
+    "description": "друга відміна / середній рід / м'яка група / на -ле",
+    "priority": 2,
+    "gender": ["male", "female"],
+    "regexp": {
+      "find": "ле$",
       "modify": "е$"
     },
     "applyType": "replace",
