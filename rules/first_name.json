@@ -22,6 +22,28 @@
     }
   },
   {
+    "description": "ім'я яків",
+    "priority": 4,
+    "gender": ["male"],
+    "regexp": {
+      "find": "^яків",
+      "modify": "ів$"
+    },
+    "applyType": "replace",
+    "examples": [
+      "яків"
+    ],
+    "cases": {
+      "nominative": [""],
+      "genitive": ["ова"],
+      "dative": ["ову"],
+      "accusative": ["ова"],
+      "ablative": ["овом"],
+      "locative": ["ові"],
+      "vocative": ["ове"]
+    }
+  },
+  {
     "description": "ім'я ігор",
     "types": ["firstName"],
     "priority": 4,
