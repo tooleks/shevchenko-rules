@@ -462,13 +462,13 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / тверда група / на -я(тверда_приголосна)",
+    "description": "друга відміна / чоловічий рід / тверда група / на -яр",
     "examples": ["скляр"],
     "gender": ["male"],
     "priority": 2,
     "applications": [],
     "regexp": {
-      "find": "я__тверда_приголосна__$",
+      "find": "яр$",
       "modify": "(.{1})$"
     },
     "cases": {
@@ -765,6 +765,56 @@
     }
   },
   {
+    "description": "друга відміна / чоловічий рід / тверда група / на -пес",
+    "examples": ["пес"],
+    "gender": ["male"],
+    "priority": 3,
+    "applications": [],
+    "regexp": {
+      "find": "пес$",
+      "modify": "(.{1})(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": ""},
+          "1": {"type": "append", "value": "а"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": ""},
+          "1": {"type": "append", "value": "у"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": ""},
+          "1": {"type": "append", "value": "а"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": ""},
+          "1": {"type": "append", "value": "ом"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": ""},
+          "1": {"type": "append", "value": "ові"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": ""},
+          "1": {"type": "append", "value": "е"}
+        }
+      ]
+    }
+  },
+  {
     "description": "друга відміна / чоловічий рід / тверда група / на -(г|ґ)",
     "examples": ["грег"],
     "gender": ["male", "female"],
@@ -1054,13 +1104,13 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / тверда група / на -и(тверда_приголосна)",
-    "examples": ["кузик"],
+    "description": "друга відміна / чоловічий рід / тверда група / на -к",
+    "examples": ["кузик", "мисяк"],
     "gender": ["male"],
     "priority": 2,
     "applications": [],
     "regexp": {
-      "find": "и__тверда_приголосна__$",
+      "find": "к$",
       "modify": "(.{1})$"
     },
     "cases": {

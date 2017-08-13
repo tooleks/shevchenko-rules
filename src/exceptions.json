@@ -178,13 +178,13 @@
     }
   },
   {
-    "description": "чоловіче ім'я дір",
-    "examples": ["дір"],
+    "description": "чоловічі імена дір та вір",
+    "examples": ["дір", "вір"],
     "gender": ["male"],
     "priority": 10,
     "applications": ["firstName"],
     "regexp": {
-      "find": "^дір$",
+      "find": "^(в|д)ір$",
       "modify": "(.{1})$"
     },
     "cases": {
@@ -281,56 +281,6 @@
         {
           "0": {"type": "replace", "value": "о"},
           "1": {"type": "append", "value": "е"}
-        }
-      ]
-    }
-  },
-  {
-    "description": "чоловіче ім'я вір",
-    "examples": ["вір"],
-    "gender": ["male"],
-    "priority": 10,
-    "applications": ["firstName"],
-    "regexp": {
-      "find": "^вір$",
-      "modify": "(.{1})$"
-    },
-    "cases": {
-      "nominative": [],
-      "genitive": [
-        {
-          "0": {"type": "append", "value": "а"}
-        }
-      ],
-      "dative": [
-        {
-          "0": {"type": "append", "value": "у"}
-        },
-        {
-          "0": {"type": "append", "value": "ові"}
-        }
-      ],
-      "accusative": [
-        {
-          "0": {"type": "append", "value": "а"}
-        }
-      ],
-      "ablative": [
-        {
-          "0": {"type": "append", "value": "ом"}
-        }
-      ],
-      "locative": [
-        {
-          "0": {"type": "append", "value": "ові"}
-        },
-        {
-          "0": {"type": "append", "value": "у"}
-        }
-      ],
-      "vocative": [
-        {
-          "0": {"type": "append", "value": "е"}
         }
       ]
     }
