@@ -448,6 +448,56 @@
     }
   },
   {
+    "description": "друга відміна / чоловічий рід / м'яка група / на -сіль",
+    "examples": ["кисіль"],
+    "gender": ["male"],
+    "priority": 4,
+    "applications": [],
+    "regexp": {
+      "find": "сіль$",
+      "modify": "(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "я"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        },
+        {
+          "0": {"type": "replace", "value": "еві"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "я"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "ем"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        },
+        {
+          "0": {"type": "replace", "value": "еві"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        }
+      ]
+    }
+  },
+  {
     "description": "друга відміна / чоловічий рід / тверда група / на -кі(тверда_приголосна)ь",
     "examples": ["кінь"],
     "gender": ["male"],
