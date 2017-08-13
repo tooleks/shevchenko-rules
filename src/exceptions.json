@@ -328,5 +328,49 @@
         }
       ]
     }
+  },
+  {
+    "description": "слово сіль",
+    "examples": ["сіль"],
+    "gender": ["male"],
+    "priority": 4,
+    "applications": ["lastName"],
+    "regexp": {
+      "find": "^сіль$",
+      "modify": "(.{1})(.{1})(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "2": {"type": "replace", "value": "і"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "2": {"type": "replace", "value": "і"}
+        }
+      ],
+      "accusative": [],
+      "ablative": [
+        {
+          "2": {"type": "replace", "value": "лю"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "2": {"type": "replace", "value": "і"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "2": {"type": "replace", "value": "е"}
+        }
+      ]
+    }
   }
 ]
