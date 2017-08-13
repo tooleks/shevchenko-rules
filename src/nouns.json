@@ -738,13 +738,71 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / м'яка група / на -і(тверда_приголосна)ь",
+    "description": "друга відміна / чоловічий рід / м'яка група / на -бідь",
     "examples": ["лебідь"],
     "gender": ["male"],
-    "priority": 3,
+    "priority": 5,
     "applications": [],
     "regexp": {
-      "find": "і__тверда_приголосна__ь$",
+      "find": "бідь$",
+      "modify": "(.{1})(.{1})(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "е"},
+          "2": {"type": "replace", "value": "я"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "е"},
+          "2": {"type": "replace", "value": "ю"}
+        },
+        {
+          "0": {"type": "replace", "value": "е"},
+          "2": {"type": "replace", "value": "еві"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "е"},
+          "2": {"type": "replace", "value": "я"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "е"},
+          "2": {"type": "replace", "value": "ем"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "е"},
+          "2": {"type": "replace", "value": "ю"}
+        },
+        {
+          "0": {"type": "replace", "value": "е"},
+          "2": {"type": "replace", "value": "еві"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": "е"},
+          "2": {"type": "replace", "value": "ю"}
+        }
+      ]
+    }
+  },
+  {
+    "description": "друга відміна / чоловічий рід / м'яка група / на -мінь",
+    "examples": ["кремінь"],
+    "gender": ["male"],
+    "priority": 5,
+    "applications": [],
+    "regexp": {
+      "find": "мінь$",
       "modify": "(.{1})(.{1})(.{1})$"
     },
     "cases": {
@@ -954,13 +1012,13 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / тверда група / на -кі(тверда_приголосна)ь",
+    "description": "друга відміна / чоловічий рід / тверда група / на -кінь",
     "examples": ["кінь"],
     "gender": ["male"],
-    "priority": 4,
+    "priority": 5,
     "applications": [],
     "regexp": {
-      "find": "кі__тверда_приголосна__ь$",
+      "find": "кінь$",
       "modify": "(.{1})(.{1})(.{1})$"
     },
     "cases": {
