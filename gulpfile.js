@@ -7,11 +7,8 @@ const macro = require("./macro");
 
 gulp.task("build", () => {
     let rules = [];
-    // Load and concatenate all rules from rules directory.
-    fs.readdirSync("./rules/").forEach((file) => rules = rules.concat(require("./rules/" + file)));
-    // Sort rules by priority descending.
+    fs.readdirSync("./src/").forEach((file) => rules = rules.concat(require("./src/" + file)));
     rules.sort((firstRule, secondRule) => secondRule.priority - firstRule.priority);
-    // Write rules into single file.
     fs.writeFile("./dist/rules.json", JSON.stringify(rules), (error) => {
         if (error) throw error;
         gulp.start("replace:macro");
