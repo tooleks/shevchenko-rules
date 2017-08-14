@@ -744,7 +744,7 @@
     "priority": 4,
     "applications": [],
     "regexp": {
-      "find": "пиріг$",
+      "find": "ріг$",
       "modify": "(.{1})(.{1})$"
     },
     "cases": {
@@ -790,7 +790,65 @@
       "vocative": [
         {
           "0": {"type": "replace", "value": "о"},
-          "1": {"type": "replace", "value": "гу"}
+          "1": {"type": "append", "value": "у"}
+        }
+      ]
+    }
+  },
+  {
+    "description": "друга відміна / чоловічий рід / тверда група / на -хід",
+    "examples": ["прихід"],
+    "gender": ["male"],
+    "priority": 4,
+    "applications": [],
+    "regexp": {
+      "find": "хід$",
+      "modify": "(.{1})(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "а"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "у"}
+        },
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "ові"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "а"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "ом"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "і"}
+        },
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "ові"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "е"}
         }
       ]
     }
