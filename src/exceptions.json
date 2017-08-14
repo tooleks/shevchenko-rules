@@ -178,6 +178,56 @@
     }
   },
   {
+    "description": "чоловіче ім'я лазар",
+    "examples": ["ігор"],
+    "gender": ["male"],
+    "priority": 5,
+    "applications": ["firstName"],
+    "regexp": {
+      "find": "^лазар$",
+      "modify": "(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "append", "value": "я"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "append", "value": "ю"}
+        },
+        {
+          "0": {"type": "append", "value": "еві"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "append", "value": "я"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "append", "value": "ем"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "append", "value": "ю"}
+        },
+        {
+          "0": {"type": "append", "value": "еві"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "append", "value": "ю"}
+        }
+      ]
+    }
+  },
+  {
     "description": "чоловічі імена дір та вір",
     "examples": ["дір", "вір"],
     "gender": ["male"],
