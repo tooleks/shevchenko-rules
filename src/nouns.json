@@ -2215,7 +2215,7 @@
   {
     "description": "перша відміна / чоловічий, жіночий рід / тверда група / на -йо",
     "examples": ["йойо"],
-    "gender": ["male", "female"],
+    "gender": ["male"],
     "priority": 2,
     "applications": [],
     "regexp": {
