@@ -2169,13 +2169,13 @@
     }
   },
   {
-    "description": "перша відміна / чоловічий, жіночий рід / тверда група / на -(приголосна)о",
+    "description": "перша відміна / чоловічий, жіночий рід / тверда група / на -(тверда_приголосна)о",
     "examples": ["петро", "павло"],
     "gender": ["male", "female"],
-    "priority": 1,
+    "priority": 2,
     "applications": [],
     "regexp": {
-      "find": "__приголосна__о$",
+      "find": "__тверда_приголосна__о$",
       "modify": "(.{1})$"
     },
     "cases": {
@@ -2210,6 +2210,46 @@
           "0": {"type": "replace", "value": "е"}
         }
       ]
+    }
+  },
+  {
+    "description": "перша відміна / чоловічий, жіночий рід / тверда група / на -йо",
+    "examples": ["йойо"],
+    "gender": ["male", "female"],
+    "priority": 2,
+    "applications": [],
+    "regexp": {
+      "find": "йо$",
+      "modify": "(.{2})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "я"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "append", "value": "ві"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "я"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "append", "value": "м"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "append", "value": "ві"}
+        }
+      ],
+      "vocative": []
     }
   },
   {
