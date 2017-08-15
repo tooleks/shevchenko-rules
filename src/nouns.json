@@ -1567,7 +1567,7 @@
   },
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -ьо",
-    "examples": ["іваньо"],
+    "examples": ["іваньо", "кузьо"],
     "gender": ["male"],
     "priority": 2,
     "applications": [],
@@ -1584,7 +1584,7 @@
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "ьові"}
+          "0": {"type": "replace", "value": "ю"}
         }
       ],
       "accusative": [
@@ -1594,12 +1594,12 @@
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ьом"}
+          "0": {"type": "append", "value": "м"}
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "ьові"}
+          "0": {"type": "replace", "value": "ю"}
         }
       ],
       "vocative": []
