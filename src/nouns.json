@@ -1194,6 +1194,52 @@
     }
   },
   {
+    "description": "друга відміна / чоловічий рід / тверда група / на -га",
+    "examples": ["нога"],
+    "gender": ["male"],
+    "priority": 3,
+    "applications": [],
+    "regexp": {
+      "find": "га$",
+      "modify": "(.{1})(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "1": {"type": "replace", "value": "и"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "з"},
+          "1": {"type": "replace", "value": "і"}
+        }
+      ],
+      "accusative": [
+        {
+          "1": {"type": "replace", "value": "у"}
+        }
+      ],
+      "ablative": [
+        {
+          "1": {"type": "replace", "value": "ою"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "з"},
+          "1": {"type": "replace", "value": "і"}
+        }
+      ],
+      "vocative": [
+        {
+          "1": {"type": "replace", "value": "о"}
+        }
+      ]
+    }
+  },
+  {
     "description": "чоловіче ім'я ігор",
     "examples": ["ігор"],
     "gender": ["male"],
