@@ -2536,6 +2536,42 @@
     }
   },
   {
+    "description": "перша відміна / чоловічий, жіночий рід / м'яка група / на -ння",
+    "examples": ["кохання"],
+    "gender": ["male", "female"],
+    "priority": 4,
+    "applications": [],
+    "regexp": {
+      "find": "ння$",
+      "modify": "(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        }
+      ],
+      "accusative": [],
+      "ablative": [
+        {
+          "0": {"type": "append", "value": "м"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "і"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": "я"}
+        }
+      ]
+    }
+  },
+  {
     "description": "перша відміна / чоловічий, жіночий рід / тверда група / на -(тверда_приголосна)о",
     "examples": ["петро", "павло"],
     "gender": ["male", "female"],
