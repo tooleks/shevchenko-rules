@@ -1,12 +1,52 @@
 [
   {
-    "description": "жіночий рід / на -(ц|с)ька",
+    "description": "чоловічий рід / на -ий",
+    "examples": ["сухомлинський"],
+    "gender": ["male"],
+    "priority": 2,
+    "applications": ["lastName"],
+    "regexp": {
+      "find": "ий$",
+      "modify": "(.{2})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "ого"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "ому"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "ого"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "им"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "ому"}
+        }
+      ],
+      "vocative": []
+    }
+  },
+  {
+    "description": "жіночий рід / на -(тверда_приголосна)ька",
     "examples": ["ільницька", "сумська"],
     "gender": ["female"],
     "priority": 4,
     "applications": ["lastName"],
     "regexp": {
-      "find": "(с|ц)ька$",
+      "find": "__тверда_приголосна__ька$",
       "modify": "(.{1})$"
     },
     "cases": {
@@ -40,13 +80,53 @@
     }
   },
   {
-    "description": "жіночий рід / на -(в|н)а",
-    "examples": ["іванова", "зеленкіна"],
+    "description": "жіночий рід / на -ова",
+    "examples": ["іванова"],
     "gender": ["female"],
     "priority": 2,
     "applications": ["lastName"],
     "regexp": {
-      "find": "(в|н)а$",
+      "find": "ова$",
+      "modify": "(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "ої"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "ій"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "у"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "ою"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "ій"}
+        }
+      ],
+      "vocative": []
+    }
+  },
+  {
+    "description": "жіночий рід / на -іна",
+    "examples": ["зеленкіна"],
+    "gender": ["female"],
+    "priority": 2,
+    "applications": ["lastName"],
+    "regexp": {
+      "find": "іна$",
       "modify": "(.{1})$"
     },
     "cases": {
@@ -117,134 +197,6 @@
         }
       ],
       "vocative": []
-    }
-  },
-  {
-    "description": "чоловічий рід / на -ий",
-    "examples": ["сухомлинський"],
-    "gender": ["male"],
-    "priority": 2,
-    "applications": ["lastName"],
-    "regexp": {
-      "find": "ий$",
-      "modify": "(.{2})$"
-    },
-    "cases": {
-      "nominative": [],
-      "genitive": [
-        {
-          "0": {"type": "replace", "value": "ого"}
-        }
-      ],
-      "dative": [
-        {
-          "0": {"type": "replace", "value": "ому"}
-        }
-      ],
-      "accusative": [
-        {
-          "0": {"type": "replace", "value": "ого"}
-        }
-      ],
-      "ablative": [
-        {
-          "0": {"type": "replace", "value": "им"}
-        }
-      ],
-      "locative": [
-        {
-          "0": {"type": "replace", "value": "ому"}
-        }
-      ],
-      "vocative": []
-    }
-  },
-  {
-    "description": "чоловічий рід / на -ов",
-    "examples": ["павлов"],
-    "gender": ["male"],
-    "priority": 2,
-    "applications": ["lastName"],
-    "regexp": {
-      "find": "ов$",
-      "modify": "(.{1})$"
-    },
-    "cases": {
-      "nominative": [],
-      "genitive": [
-        {
-          "0": {"type": "append", "value": "а"}
-        }
-      ],
-      "dative": [
-        {
-          "0": {"type": "append", "value": "у"}
-        }
-      ],
-      "accusative": [
-        {
-          "0": {"type": "append", "value": "а"}
-        }
-      ],
-      "ablative": [
-        {
-          "0": {"type": "append", "value": "им"}
-        }
-      ],
-      "locative": [
-        {
-          "0": {"type": "append", "value": "у"}
-        }
-      ],
-      "vocative": [
-        {
-          "0": {"type": "append", "value": "е"}
-        }
-      ]
-    }
-  },
-  {
-    "description": "чоловічий рід / на -ів",
-    "examples": ["ковалів"],
-    "gender": ["male"],
-    "priority": 2,
-    "applications": ["lastName"],
-    "regexp": {
-      "find": "ів$",
-      "modify": "(.{1})$"
-    },
-    "cases": {
-      "nominative": [],
-      "genitive": [
-        {
-          "0": {"type": "append", "value": "а"}
-        }
-      ],
-      "dative": [
-        {
-          "0": {"type": "append", "value": "у"}
-        }
-      ],
-      "accusative": [
-        {
-          "0": {"type": "append", "value": "а"}
-        }
-      ],
-      "ablative": [
-        {
-          "0": {"type": "append", "value": "им"}
-        }
-      ],
-      "locative": [
-        {
-          "0": {"type": "append", "value": "у"}
-        }
-      ],
-      "vocative": [
-        {
-          "0": {"type": "append", "value": "е"}
-        }
-      ]
     }
   }
 ]
