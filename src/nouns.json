@@ -2382,6 +2382,56 @@
     }
   },
   {
+    "description": "перша відміна / чоловічий, жіночий роди / тверда група / на -ка",
+    "examples": ["прилука"],
+    "pos": "noun",
+    "gender": ["male", "female"],
+    "priority": 2,
+    "applications": [],
+    "regexp": {
+      "find": "ка$",
+      "modify": "(.{1})(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "1": {"type": "replace", "value": "и"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "ц"},
+          "1": {"type": "replace", "value": "і"}
+        }
+      ],
+      "accusative": [
+        {
+          "1": {"type": "replace", "value": "у"}
+        }
+      ],
+      "ablative": [
+        {
+          "1": {"type": "replace", "value": "ою"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "ц"},
+          "1": {"type": "replace", "value": "і"}
+        }
+      ],
+      "vocative": [
+        {
+          "1": {"type": "replace", "value": "о"}
+        },
+        {
+          "1": {"type": "replace", "value": "а"}
+        }
+      ]
+    }
+  },
+  {
     "description": "друга відміна / чоловічий, жіночий роди / на -е",
     "examples": ["прізвище"],
     "pos": "noun",
