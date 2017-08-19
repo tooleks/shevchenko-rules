@@ -1,8 +1,3 @@
-# The IDE directory
 .idea
-
-# The Node.js vendor directory.
 node_modules
-
-# The npm debug log file.
 npm-debug.log

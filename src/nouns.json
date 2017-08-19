@@ -2729,53 +2729,6 @@
     }
   },
   {
-    "description": "перша відміна / чоловічий рід / тверда група / на -ка",
-    "examples": ["чіпка"],
-    "pos": "noun",
-    "gender": ["male"],
-    "priority": 2,
-    "applications": [],
-    "regexp": {
-      "find": "ка$",
-      "modify": "(.{1})(.{1})$"
-    },
-    "cases": {
-      "nominative": [],
-      "genitive": [
-        {
-          "1": {"type": "replace", "value": "и"}
-        }
-      ],
-      "dative": [
-        {
-          "0": {"type": "replace", "value": "ц"},
-          "1": {"type": "replace", "value": "і"}
-        }
-      ],
-      "accusative": [
-        {
-          "1": {"type": "replace", "value": "у"}
-        }
-      ],
-      "ablative": [
-        {
-          "1": {"type": "replace", "value": "ою"}
-        }
-      ],
-      "locative": [
-        {
-          "0": {"type": "replace", "value": "ц"},
-          "1": {"type": "replace", "value": "і"}
-        }
-      ],
-      "vocative": [
-        {
-          "1": {"type": "replace", "value": "о"}
-        }
-      ]
-    }
-  },
-  {
     "description": "перша відміна / чоловічий рід / тверда група / на -ле",
     "examples": ["поле"],
     "pos": "noun",

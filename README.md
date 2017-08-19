@@ -10,6 +10,7 @@
 {
   "description": "перша відміна / чоловічий, жіночий роди / мішана група / на -а",
   "examples": ["саша"],
+  "pos": "noun",
   "gender": ["male", "female"],
   "priority": 2,
   "applications": [],
