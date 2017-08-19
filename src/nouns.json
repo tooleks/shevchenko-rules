@@ -2,6 +2,7 @@
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -(голосна)(тверда_приголосна)ець",
     "examples": ["половець"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 5,
     "applications": [],
@@ -60,6 +61,7 @@
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -(голосна)лець",
     "examples": ["стрілець"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 6,
     "applications": [],
@@ -118,6 +120,7 @@
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -(тверда_приголосна)(тверда_приголосна)ець",
     "examples": ["жнець"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 5,
     "applications": [],
@@ -168,6 +171,7 @@
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -(голосна)єць",
     "examples": ["заєць"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -226,6 +230,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -кіт",
     "examples": ["кіт"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -284,6 +289,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -віз",
     "examples": ["узвіз"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -342,6 +348,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -.ків",
     "examples": ["яків"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -400,6 +407,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -.(к|р)іп",
     "examples": ["прокіп"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -458,6 +466,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -піп",
     "examples": ["прокіп"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -516,6 +525,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -рід",
     "examples": ["рід"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -574,6 +584,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -ніс",
     "examples": ["кривоніс"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -632,6 +643,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -зір",
     "examples": ["дивозір"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -690,6 +702,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -віл",
     "examples": ["рябовіл"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -748,6 +761,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -ріг",
     "examples": ["пиріг"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -806,6 +820,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -хід",
     "examples": ["прихід"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -864,6 +879,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -батіг",
     "examples": ["батіг"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 6,
     "applications": [],
@@ -922,6 +938,7 @@
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -.бідь",
     "examples": ["лебідь"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 5,
     "applications": [],
@@ -980,6 +997,7 @@
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -.мінь",
     "examples": ["кремінь"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 5,
     "applications": [],
@@ -1038,6 +1056,7 @@
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -кріль",
     "examples": ["кріль"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 6,
     "applications": [],
@@ -1096,6 +1115,7 @@
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -сіль",
     "examples": ["кисіль"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 5,
     "applications": [],
@@ -1146,6 +1166,7 @@
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -.міль",
     "examples": ["хміль"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 5,
     "applications": [],
@@ -1196,6 +1217,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -кінь",
     "examples": ["кінь"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 5,
     "applications": [],
@@ -1254,6 +1276,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -га",
     "examples": ["нога"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 3,
     "applications": [],
@@ -1300,6 +1323,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група/ на -ов",
     "examples": ["павлов"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": ["lastName"],
@@ -1344,6 +1368,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -ів",
     "examples": ["ковалів"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": ["lastName"],
@@ -1388,6 +1413,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -ишин",
     "examples": ["ковалишин"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -1432,6 +1458,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -(их|аго|ово)",
     "examples": ["бряних"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 3,
     "applications": [],
@@ -1452,6 +1479,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -яр",
     "examples": ["скляр"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": [],
@@ -1502,6 +1530,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -кіш",
     "examples": ["розкіш"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 3,
     "applications": [],
@@ -1552,6 +1581,7 @@
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -ьо",
     "examples": ["іваньо", "кузьо"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": [],
@@ -1592,6 +1622,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда, м'яка група / на -(о|ь|приголосна)",
     "examples": ["шевченко"],
+    "pos": "noun",
     "gender": ["female"],
     "priority": 2,
     "applications": [],
@@ -1612,6 +1643,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -ок",
     "examples": ["сашок"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": [],
@@ -1666,6 +1698,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -е(тверда_прилосона)",
     "examples": ["марек"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": [],
@@ -1710,6 +1743,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -ен",
     "examples": ["семен"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 3,
     "applications": [],
@@ -1754,6 +1788,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -тер",
     "examples": ["вітер"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -1804,6 +1839,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -пес",
     "examples": ["пес"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 3,
     "applications": [],
@@ -1854,6 +1890,7 @@
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -(тверда_приголосна)я",
     "examples": ["гмиря"],
+    "pos": "noun",
     "gender": ["male", "female"],
     "priority": 2,
     "applications": [],
@@ -1898,6 +1935,7 @@
   {
     "description": "друга відміна / чоловічий, жіночий роди / м'яка група / на -(і|ь)я",
     "examples": ["юлія"],
+    "pos": "noun",
     "gender": ["male", "female"],
     "priority": 2,
     "applications": [],
@@ -1942,6 +1980,7 @@
   {
     "description": "друга відміна / чоловічий рід / мішана група / на -(дж|ж|ч|ш)",
     "examples": ["януш", "джордж"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": [],
@@ -1995,6 +2034,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -ко",
     "examples": ["марко"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": [],
@@ -2045,6 +2085,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -(тверда_приголосна)",
     "examples": ["олександр"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 1,
     "applications": [],
@@ -2095,6 +2136,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -к",
     "examples": ["кузик", "мисяк"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": [],
@@ -2145,6 +2187,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -х",
     "examples": ["кожух"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": [],
@@ -2192,6 +2235,7 @@
   {
     "description": "перша відміна / чоловічий, жіночий роди / тверда група / на -а",
     "examples": ["анна"],
+    "pos": "noun",
     "gender": ["male", "female"],
     "priority": 1,
     "applications": [],
@@ -2236,6 +2280,7 @@
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -й",
     "examples": ["валерій"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 1,
     "applications": [],
@@ -2289,6 +2334,7 @@
   {
     "description": "перша відміна / чоловічий, жіночий роди / тверда група / на -ха",
     "examples": ["старуха"],
+    "pos": "noun",
     "gender": ["male", "female"],
     "priority": 2,
     "applications": [],
@@ -2338,6 +2384,7 @@
   {
     "description": "друга відміна / чоловічий, жіночий роди / на -е",
     "examples": ["прізвище"],
+    "pos": "noun",
     "gender": ["male", "female"],
     "priority": 1,
     "applications": [],
@@ -2374,6 +2421,7 @@
   {
     "description": "перша відміна / чоловічий, жіночий рід / м'яка група / на -ь",
     "examples": ["петрунь"],
+    "pos": "noun",
     "gender": ["male", "female"],
     "priority": 1,
     "applications": [],
@@ -2418,6 +2466,7 @@
   {
     "description": "перша відміна / чоловічий, жіночий рід / м'яка група / на -ння",
     "examples": ["кохання"],
+    "pos": "noun",
     "gender": ["male", "female"],
     "priority": 4,
     "applications": [],
@@ -2454,6 +2503,7 @@
   {
     "description": "перша відміна / чоловічий, жіночий рід / тверда група / на -(тверда_приголосна)о",
     "examples": ["петро", "павло"],
+    "pos": "noun",
     "gender": ["male", "female"],
     "priority": 2,
     "applications": [],
@@ -2498,6 +2548,7 @@
   {
     "description": "перша відміна / чоловічий, жіночий рід / тверда група / на -йо",
     "examples": ["йойо"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": [],
@@ -2538,6 +2589,7 @@
   {
     "description": "перша відміна / жіночий рід / тверда група / на -(г|ґ)а",
     "examples": ["ольга"],
+    "pos": "noun",
     "gender": ["female"],
     "priority": 1,
     "applications": [],
@@ -2584,6 +2636,7 @@
   {
     "description": "перша відміна / чоловічий рід / тверда група / на -світ",
     "examples": ["світ"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],
@@ -2628,6 +2681,7 @@
   {
     "description": "перша відміна / чоловічий рід / тверда група / на -ка",
     "examples": ["чіпка"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": [],
@@ -2674,6 +2728,7 @@
   {
     "description": "перша відміна / чоловічий рід / тверда група / на -ле",
     "examples": ["поле"],
+    "pos": "noun",
     "gender": ["male", "female"],
     "priority": 2,
     "applications": [],
@@ -2714,6 +2769,7 @@
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -куліш",
     "examples": ["поле"],
+    "pos": "noun",
     "gender": ["male", "female"],
     "priority": 5,
     "applications": [],
@@ -2758,6 +2814,7 @@
   {
     "description": "перша відміна / чоловічий, жіночий роди / мішана група / на -а",
     "examples": ["мойша"],
+    "pos": "noun",
     "gender": ["male", "female"],
     "priority": 2,
     "applications": [],
@@ -2802,6 +2859,7 @@
   {
     "description": "чоловічі імена / на -(в|д)ір",
     "examples": ["дір", "вір"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 4,
     "applications": [],

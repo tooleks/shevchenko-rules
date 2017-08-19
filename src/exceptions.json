@@ -2,6 +2,7 @@
   {
     "description": "чоловічі по батькові та прізвища / на -ич",
     "examples": ["валерійович", "риндич"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 2,
     "applications": ["middleName", "lastName"],
@@ -46,6 +47,7 @@
   {
     "description": "жіночі по батькові / на -на",
     "examples": ["юріївна"],
+    "pos": "noun",
     "gender": ["female"],
     "priority": 2,
     "applications": ["middleName"],
@@ -90,6 +92,7 @@
   {
     "description": "жіночі імена / на -(тверда_приголосна)я",
     "examples": ["неля"],
+    "pos": "noun",
     "gender": ["female"],
     "priority": 2,
     "applications": ["firstName"],
@@ -134,6 +137,7 @@
   {
     "description": "жіноче ім'я любов",
     "examples": ["любов"],
+    "pos": "noun",
     "gender": ["female"],
     "priority": 10,
     "applications": ["firstName"],
@@ -174,6 +178,7 @@
   {
     "description": "чоловіче ім'я ігор",
     "examples": ["ігор"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 10,
     "applications": [],
@@ -224,6 +229,7 @@
   {
     "description": "чоловіче ім'я лазар",
     "examples": ["лазар"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 10,
     "applications": [],
@@ -274,6 +280,7 @@
   {
     "description": "чоловіче ім'я федір",
     "examples": ["федір"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 10,
     "applications": ["firstName"],
@@ -332,6 +339,7 @@
   {
     "description": "слово сіль",
     "examples": ["сіль"],
+    "pos": "noun",
     "gender": ["male"],
     "priority": 5,
     "applications": ["lastName"],
