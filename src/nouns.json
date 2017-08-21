@@ -2822,7 +2822,7 @@
     "priority": 2,
     "applications": [],
     "regexp": {
-      "find": "(дж|ж|ч|ш)а$",
+      "find": "(дж|ж|ч|ш|щ)а$",
       "modify": "(.{1})$"
     },
     "cases": {
