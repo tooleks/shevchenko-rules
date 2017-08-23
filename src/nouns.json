@@ -936,6 +936,61 @@
     }
   },
   {
+    "description": "друга відміна / чоловічий рід / тверда група / на -орел",
+    "examples": ["орел"],
+    "pos": "noun",
+    "gender": ["male"],
+    "priority": 5,
+    "applications": [],
+    "regexp": {
+      "find": "орел$",
+      "modify": "(.{1})(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "л"},
+          "1": {"type": "replace", "value": "а"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "л"},
+          "1": {"type": "replace", "value": "ові"}
+        },
+        {
+          "0": {"type": "replace", "value": "л"},
+          "1": {"type": "replace", "value": "у"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "л"},
+          "1": {"type": "replace", "value": "а"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "л"},
+          "1": {"type": "replace", "value": "ом"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "л"},
+          "1": {"type": "replace", "value": "ові"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": "л"},
+          "1": {"type": "replace", "value": "е"}
+        }
+      ]
+    }
+  },
+  {
     "description": "друга відміна / чоловічий рід / м'яка група / на -.бідь",
     "examples": ["лебідь"],
     "pos": "noun",
@@ -1110,6 +1165,44 @@
           "2": {"type": "replace", "value": "ю"}
         }
       ]
+    }
+  },
+  {
+    "description": "друга відміна / жіночий рід / м'яка група / на -ель",
+    "examples": ["нінель", "мішель"],
+    "pos": "noun",
+    "gender": ["female"],
+    "priority": 4,
+    "applications": ["firstName"],
+    "regexp": {
+      "find": "ель$",
+      "modify": "(.{1})(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "1": {"type": "replace", "value": "і"}
+        }
+      ],
+      "dative": [
+        {
+          "1": {"type": "replace", "value": "і"}
+        }
+      ],
+      "accusative": [],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "лл"},
+          "1": {"type": "replace", "value": "ю"}
+        }
+      ],
+      "locative": [
+        {
+          "1": {"type": "replace", "value": "і"}
+        }
+      ],
+      "vocative": []
     }
   },
   {
