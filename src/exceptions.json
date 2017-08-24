@@ -139,7 +139,7 @@
     "examples": ["любов"],
     "pos": "noun",
     "gender": ["female"],
-    "priority": 10,
+    "priority": 6,
     "applications": ["firstName"],
     "regexp": {
       "find": "^любов$",
@@ -180,7 +180,7 @@
     "examples": ["ігор"],
     "pos": "noun",
     "gender": ["male"],
-    "priority": 10,
+    "priority": 5,
     "applications": [],
     "regexp": {
       "find": "^ігор$",
@@ -231,7 +231,7 @@
     "examples": ["лазар"],
     "pos": "noun",
     "gender": ["male"],
-    "priority": 10,
+    "priority": 6,
     "applications": [],
     "regexp": {
       "find": "^лазар$",
@@ -282,7 +282,7 @@
     "examples": ["федір"],
     "pos": "noun",
     "gender": ["male"],
-    "priority": 10,
+    "priority": 6,
     "applications": ["firstName"],
     "regexp": {
       "find": "^федір$",
@@ -332,6 +332,96 @@
         {
           "0": {"type": "replace", "value": "о"},
           "1": {"type": "append", "value": "е"}
+        }
+      ]
+    }
+  },
+  {
+    "description": "слово суддя",
+    "examples": ["суддя"],
+    "pos": "noun",
+    "gender": ["male", "female"],
+    "priority": 6,
+    "applications": ["lastName"],
+    "regexp": {
+      "find": "^суддя$",
+      "modify": "(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "і"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "і"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "ею"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "і"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": "е"}
+        }
+      ]
+    }
+  },
+  {
+    "description": "слово рілля",
+    "examples": ["рілля"],
+    "pos": "noun",
+    "gender": ["male", "female"],
+    "priority": 6,
+    "applications": ["lastName"],
+    "regexp": {
+      "find": "^рілля$",
+      "modify": "(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "і"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "і"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "ею"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "і"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": "е"}
         }
       ]
     }

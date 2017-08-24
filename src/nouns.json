@@ -2562,10 +2562,10 @@
     }
   },
   {
-    "description": "перша відміна / чоловічий, жіночий рід / м'яка група / на -ь",
+    "description": "друга відміна / чоловічий рід / м'яка група / на -ь",
     "examples": ["петрунь"],
     "pos": "noun",
-    "gender": ["male", "female"],
+    "gender": ["male"],
     "priority": 1,
     "applications": [],
     "regexp": {
@@ -2607,14 +2607,14 @@
     }
   },
   {
-    "description": "перша відміна / чоловічий, жіночий рід / м'яка група / на -ння",
+    "description": "третя відміна / середній рід / на -(подовжена_тверда_приголосна)я",
     "examples": ["кохання"],
     "pos": "noun",
     "gender": ["male", "female"],
-    "priority": 4,
-    "applications": [],
+    "priority": 3,
+    "applications": ["lastName"],
     "regexp": {
-      "find": "ння$",
+      "find": "__подовжена_тверда_приголосна__я$",
       "modify": "(.{1})$"
     },
     "cases": {
