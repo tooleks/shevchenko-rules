@@ -176,14 +176,14 @@
     }
   },
   {
-    "description": "чоловіче ім'я ігор",
-    "examples": ["ігор"],
+    "description": "чоловічі імена ігор, лазар",
+    "examples": ["ігор", "лазар"],
     "pos": "noun",
     "gender": ["male"],
     "priority": 5,
     "applications": [],
     "regexp": {
-      "find": "^ігор$",
+      "find": "^(ігор|лазар)$",
       "modify": "(.{1})$"
     },
     "cases": {
@@ -227,65 +227,14 @@
     }
   },
   {
-    "description": "чоловіче ім'я лазар",
-    "examples": ["лазар"],
-    "pos": "noun",
-    "gender": ["male"],
-    "priority": 6,
-    "applications": [],
-    "regexp": {
-      "find": "^лазар$",
-      "modify": "(.{1})$"
-    },
-    "cases": {
-      "nominative": [],
-      "genitive": [
-        {
-          "0": {"type": "append", "value": "я"}
-        }
-      ],
-      "dative": [
-        {
-          "0": {"type": "append", "value": "ю"}
-        },
-        {
-          "0": {"type": "append", "value": "еві"}
-        }
-      ],
-      "accusative": [
-        {
-          "0": {"type": "append", "value": "я"}
-        }
-      ],
-      "ablative": [
-        {
-          "0": {"type": "append", "value": "ем"}
-        }
-      ],
-      "locative": [
-        {
-          "0": {"type": "append", "value": "ю"}
-        },
-        {
-          "0": {"type": "append", "value": "еві"}
-        }
-      ],
-      "vocative": [
-        {
-          "0": {"type": "append", "value": "ю"}
-        }
-      ]
-    }
-  },
-  {
-    "description": "чоловіче ім'я федір",
-    "examples": ["федір"],
+    "description": "чоловічі імена федір, сидір",
+    "examples": ["федір", "сидір"],
     "pos": "noun",
     "gender": ["male"],
     "priority": 6,
     "applications": ["firstName"],
     "regexp": {
-      "find": "^федір$",
+      "find": "^(федір|сидір)$",
       "modify": "(.{1})(.{1})$"
     },
     "cases": {

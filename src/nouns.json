@@ -1,13 +1,13 @@
 [
   {
-    "description": "друга відміна / чоловічий рід / м'яка група / на -(голосна)(тверда_приголосна)ець",
+    "description": "друга відміна / чоловічий рід / м'яка група / на -(голосна)(тверда_приголосна)е(ц|н)ь",
     "examples": ["половець"],
     "pos": "noun",
     "gender": ["male"],
     "priority": 5,
     "applications": [],
     "regexp": {
-      "find": "__голосна____тверда_приголосна__ець$",
+      "find": "__голосна____тверда_приголосна__е(ц|н)ь$",
       "modify": "(.{1})(.{1})(.{1})$"
     },
     "cases": {
@@ -54,6 +54,57 @@
         {
           "0": {"type": "replace", "value": ""},
           "2": {"type": "replace", "value": "ю"}
+        }
+      ]
+    }
+  },
+  {
+    "description": "друга відміна / чоловічий рід / м'яка група / на -(тверда_приголосна)(тверда_приголосна)е(ц|н)ь",
+    "examples": ["жнець"],
+    "pos": "noun",
+    "gender": ["male"],
+    "priority": 5,
+    "applications": [],
+    "regexp": {
+      "find": "__тверда_приголосна____тверда_приголосна__е(ц|н)ь$",
+      "modify": "(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "я"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        },
+        {
+          "0": {"type": "replace", "value": "еві"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "я"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "ем"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        },
+        {
+          "0": {"type": "replace", "value": "еві"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
         }
       ]
     }
@@ -113,57 +164,6 @@
         {
           "0": {"type": "replace", "value": "ь"},
           "2": {"type": "replace", "value": "ю"}
-        }
-      ]
-    }
-  },
-  {
-    "description": "друга відміна / чоловічий рід / м'яка група / на -(тверда_приголосна)(тверда_приголосна)ець",
-    "examples": ["жнець"],
-    "pos": "noun",
-    "gender": ["male"],
-    "priority": 5,
-    "applications": [],
-    "regexp": {
-      "find": "__тверда_приголосна____тверда_приголосна__ець$",
-      "modify": "(.{1})$"
-    },
-    "cases": {
-      "nominative": [],
-      "genitive": [
-        {
-          "0": {"type": "replace", "value": "я"}
-        }
-      ],
-      "dative": [
-        {
-          "0": {"type": "replace", "value": "ю"}
-        },
-        {
-          "0": {"type": "replace", "value": "еві"}
-        }
-      ],
-      "accusative": [
-        {
-          "0": {"type": "replace", "value": "я"}
-        }
-      ],
-      "ablative": [
-        {
-          "0": {"type": "replace", "value": "ем"}
-        }
-      ],
-      "locative": [
-        {
-          "0": {"type": "replace", "value": "ю"}
-        },
-        {
-          "0": {"type": "replace", "value": "еві"}
-        }
-      ],
-      "vocative": [
-        {
-          "0": {"type": "replace", "value": "ю"}
         }
       ]
     }
