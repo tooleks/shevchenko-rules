@@ -41,6 +41,88 @@
     }
   },
   {
+    "description": "чоловічий рід / на -кій (помилкова транслітерація)",
+    "examples": ["дідківській"],
+    "pos": "adjective",
+    "gender": ["male"],
+    "priority": 3,
+    "applications": ["lastName"],
+    "regexp": {
+      "find": "кій$",
+      "modify": "(.{2})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "ого"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "ому"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "ого"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "им"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "ому"}
+        }
+      ],
+      "vocative": []
+    }
+  },
+  {
+    "description": "чоловічий рід / на -ій",
+    "examples": ["заболотній"],
+    "pos": "adjective",
+    "gender": ["male"],
+    "priority": 2,
+    "applications": ["lastName"],
+    "regexp": {
+      "find": "ій$",
+      "modify": "(.{2})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "ього"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "ьому"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "ього"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "ім"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "ьому"}
+        }
+      ],
+      "vocative": []
+    }
+  },
+  {
     "description": "жіночий рід / на -(тверда_приголосна)ька",
     "examples": ["ільницька", "сумська"],
     "pos": "adjective",

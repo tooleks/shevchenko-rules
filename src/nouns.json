@@ -2529,6 +2529,54 @@
     }
   },
   {
+    "description": "друга відміна / чоловічий рід / м'яка група / на -ий",
+    "examples": ["батий"],
+    "pos": "noun",
+    "gender": ["male"],
+    "priority": 3,
+    "applications": [],
+    "regexp": {
+      "find": "ий$",
+      "modify": "(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "я"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "я"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "єм"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        },
+        {
+          "0": {"type": "replace", "value": "ї"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        }
+      ]
+    }
+  },
+  {
     "description": "перша відміна / чоловічий, жіночий роди / тверда група / на -ха",
     "examples": ["старуха"],
     "pos": "noun",
