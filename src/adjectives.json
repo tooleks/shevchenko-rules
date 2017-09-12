@@ -1,13 +1,13 @@
 [
   {
-    "description": "чоловічий рід / на -ий",
-    "examples": ["сухомлинський"],
+    "description": "чоловічий рід / на -ой, -ий",
+    "examples": ["толстой", "сухомлинський"],
     "pos": "adjective",
     "gender": ["male"],
     "priority": 2,
     "applications": ["lastName"],
     "regexp": {
-      "find": "ий$",
+      "find": "(ой|ий)$",
       "modify": "(.{2})$"
     },
     "cases": {
@@ -317,6 +317,47 @@
       "ablative": [
         {
           "0": {"type": "replace", "value": "ьою"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "ій"}
+        }
+      ],
+      "vocative": []
+    }
+  },
+  {
+    "description": "жіночий рід / на -ая",
+    "examples": ["толстая"],
+    "pos": "adjective",
+    "gender": ["female"],
+    "priority": 2,
+    "applications": ["lastName"],
+    "regexp": {
+      "find": "ая$",
+      "modify": "(.{2})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "ої"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "ій"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "у"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "ою"}
         }
       ],
       "locative": [
