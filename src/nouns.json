@@ -228,14 +228,14 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / тверда група / на -(кіт|кріт|пліт|дріт|живіт)",
-    "examples": ["кіт"],
+    "description": "друга відміна / чоловічий рід / тверда група / на -(к|п|кр|пл|др|жив)іт",
+    "examples": ["кіт", "кріт"],
     "pos": "noun",
     "gender": ["male"],
     "priority": 6,
     "applications": [],
     "regexp": {
-      "find": "(кіт|кріт|пліт|дріт|живіт)$",
+      "find": "(к|п|кр|пл|др|жив)іт$",
       "modify": "(.{1})(.{1})$"
     },
     "cases": {
@@ -759,14 +759,14 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / тверда група / на -зір",
-    "examples": ["дивозір"],
+    "description": "друга відміна / чоловічий рід / тверда група / на -(з|яв)ір",
+    "examples": ["дивозір", "явір"],
     "pos": "noun",
     "gender": ["male"],
-    "priority": 4,
+    "priority": 5,
     "applications": [],
     "regexp": {
-      "find": "зір$",
+      "find": "(з|яв)ір$",
       "modify": "(.{1})(.{1})$"
     },
     "cases": {
@@ -802,11 +802,11 @@
       "locative": [
         {
           "0": {"type": "replace", "value": "о"},
-          "1": {"type": "append", "value": "і"}
+          "1": {"type": "append", "value": "ові"}
         },
         {
           "0": {"type": "replace", "value": "о"},
-          "1": {"type": "append", "value": "ові"}
+          "1": {"type": "append", "value": "і"}
         }
       ],
       "vocative": [
@@ -1104,6 +1104,69 @@
         {
           "0": {"type": "replace", "value": "л"},
           "1": {"type": "replace", "value": "е"}
+        }
+      ]
+    }
+  },
+  {
+    "description": "друга відміна / чоловічий рід / тверда група / на -якір",
+    "examples": ["якір"],
+    "pos": "noun",
+    "gender": ["male"],
+    "priority": 5,
+    "applications": [],
+    "regexp": {
+      "find": "якір$",
+      "modify": "(.{1})(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "я"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "ю"}
+        },
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "еві"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "я"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "ем"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "еві"}
+        },
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "і"}
+        },
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "ю"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": "о"},
+          "1": {"type": "append", "value": "ю"}
         }
       ]
     }
@@ -2868,43 +2931,6 @@
       "vocative": [
         {
           "0": {"type": "replace", "value": "ю"}
-        }
-      ]
-    }
-  },
-  {
-    "description": "третя відміна / середній рід / на -(подовжена_тверда_приголосна)я",
-    "examples": ["кохання"],
-    "pos": "noun",
-    "gender": ["male", "female"],
-    "priority": 3,
-    "applications": ["lastName"],
-    "regexp": {
-      "find": "__подовжена_тверда_приголосна__я$",
-      "modify": "(.{1})$"
-    },
-    "cases": {
-      "nominative": [],
-      "genitive": [],
-      "dative": [
-        {
-          "0": {"type": "replace", "value": "ю"}
-        }
-      ],
-      "accusative": [],
-      "ablative": [
-        {
-          "0": {"type": "append", "value": "м"}
-        }
-      ],
-      "locative": [
-        {
-          "0": {"type": "replace", "value": "і"}
-        }
-      ],
-      "vocative": [
-        {
-          "0": {"type": "replace", "value": "я"}
         }
       ]
     }

@@ -135,6 +135,51 @@
     }
   },
   {
+    "description": "чоловічі імена / на -ня",
+    "examples": ["женя"],
+    "pos": "noun",
+    "gender": ["male"],
+    "priority": 2,
+    "applications": ["firstName"],
+    "regexp": {
+      "find": "ня$",
+      "modify": "(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "і"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "і"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "ею"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "і"}
+        }
+      ],
+      "vocative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        }
+      ]
+    }
+  },
+  {
     "description": "жіноче ім'я любов",
     "examples": ["любов"],
     "pos": "noun",
