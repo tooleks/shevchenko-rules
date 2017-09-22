@@ -367,5 +367,46 @@
       ],
       "vocative": []
     }
+  },
+  {
+    "description": "жіночий рід / на -яя",
+    "examples": ["заболотняя"],
+    "pos": "adjective",
+    "gender": ["female"],
+    "priority": 2,
+    "applications": ["lastName"],
+    "regexp": {
+      "find": "яя$",
+      "modify": "(.{2})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "ьої"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "ій"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "ю"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "ьою"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "ій"}
+        }
+      ],
+      "vocative": []
+    }
   }
 ]
