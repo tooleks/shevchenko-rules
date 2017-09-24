@@ -1494,51 +1494,45 @@
   },
   {
     "description": "друга відміна / чоловічий рід / м'яка група / на -.міль",
-    "examples": ["хміль"],
+    "examples": ["хміль", "чміль"],
     "pos": "noun",
     "gender": ["male"],
     "priority": 5,
     "applications": [],
     "regexp": {
       "find": ".міль$",
-      "modify": "(.{1})(.{1})(.{1})$"
+      "modify": "(.{1})$"
     },
     "cases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "е"},
-          "2": {"type": "replace", "value": "я"}
+          "0": {"type": "replace", "value": "я"}
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "е"},
-          "2": {"type": "replace", "value": "ю"}
+          "0": {"type": "replace", "value": "ю"}
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "е"},
-          "2": {"type": "replace", "value": "я"}
+          "0": {"type": "replace", "value": "я"}
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "е"},
-          "2": {"type": "replace", "value": "ем"}
+          "0": {"type": "replace", "value": "ем"}
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "е"},
-          "2": {"type": "replace", "value": "ю"}
+          "0": {"type": "replace", "value": "ю"}
         }
       ],
       "vocative": [
         {
-          "0": {"type": "replace", "value": "е"},
-          "2": {"type": "replace", "value": "е"}
+          "0": {"type": "replace", "value": "ю"}
         }
       ]
     }
@@ -3156,9 +3150,9 @@
   },
   {
     "description": "друга відміна / чоловічий рід / тверда група / на -куліш",
-    "examples": ["поле"],
+    "examples": ["куліш"],
     "pos": "noun",
-    "gender": ["male", "female"],
+    "gender": ["male"],
     "priority": 5,
     "applications": [],
     "regexp": {
