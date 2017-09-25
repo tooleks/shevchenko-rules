@@ -1493,51 +1493,6 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / м'яка група / на -.міль",
-    "examples": ["хміль", "чміль"],
-    "pos": "noun",
-    "gender": ["male"],
-    "priority": 5,
-    "applications": [],
-    "regexp": {
-      "find": ".міль$",
-      "modify": "(.{1})$"
-    },
-    "cases": {
-      "nominative": [],
-      "genitive": [
-        {
-          "0": {"type": "replace", "value": "я"}
-        }
-      ],
-      "dative": [
-        {
-          "0": {"type": "replace", "value": "ю"}
-        }
-      ],
-      "accusative": [
-        {
-          "0": {"type": "replace", "value": "я"}
-        }
-      ],
-      "ablative": [
-        {
-          "0": {"type": "replace", "value": "ем"}
-        }
-      ],
-      "locative": [
-        {
-          "0": {"type": "replace", "value": "ю"}
-        }
-      ],
-      "vocative": [
-        {
-          "0": {"type": "replace", "value": "ю"}
-        }
-      ]
-    }
-  },
-  {
     "description": "друга відміна / чоловічий рід / тверда група / на -кінь",
     "examples": ["кінь"],
     "pos": "noun",
