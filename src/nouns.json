@@ -2758,43 +2758,6 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий, жіночий роди / на -е",
-    "examples": ["прізвище"],
-    "pos": "noun",
-    "gender": ["male", "female"],
-    "priority": 1,
-    "applications": [],
-    "regexp": {
-      "find": "е$",
-      "modify": "(.{1})$"
-    },
-    "cases": {
-      "nominative": [],
-      "genitive": [
-        {
-          "0": {"type": "replace", "value": "а"}
-        }
-      ],
-      "dative": [
-        {
-          "0": {"type": "replace", "value": "у"}
-        }
-      ],
-      "accusative": [],
-      "ablative": [
-        {
-          "0": {"type": "replace", "value": "ем"}
-        }
-      ],
-      "locative": [
-        {
-          "0": {"type": "replace", "value": "і"}
-        }
-      ],
-      "vocative": []
-    }
-  },
-  {
     "description": "друга відміна / чоловічий рід / м'яка група / на -ь",
     "examples": ["петрунь"],
     "pos": "noun",
