@@ -408,5 +408,26 @@
       ],
       "vocative": []
     }
+  },
+  {
+    "description": "множина / на -их",
+    "examples": ["седих"],
+    "pos": "adjective",
+    "gender": ["male"],
+    "priority": 3,
+    "applications": [],
+    "regexp": {
+      "find": "их$",
+      "modify": "(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [],
+      "dative": [],
+      "accusative": [],
+      "ablative": [],
+      "locative": [],
+      "vocative": []
+    }
   }
 ]
