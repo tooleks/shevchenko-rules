@@ -2211,59 +2211,14 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / м'яка група / на -(голосна)я",
-    "examples": ["туя"],
+    "description": "друга відміна / чоловічий, жіночий роди / м'яка група / на -(голосна|ь|й)я",
+    "examples": ["юлія", "майя"],
     "pos": "noun",
     "gender": ["male", "female"],
     "priority": 2,
     "applications": [],
     "regexp": {
-      "find": "__голосна__я$",
-      "modify": "(.{1})$"
-    },
-    "cases": {
-      "nominative": [],
-      "genitive": [
-        {
-          "0": {"type": "replace", "value": "ї"}
-        }
-      ],
-      "dative": [
-        {
-          "0": {"type": "replace", "value": "ї"}
-        }
-      ],
-      "accusative": [
-        {
-          "0": {"type": "replace", "value": "ю"}
-        }
-      ],
-      "ablative": [
-        {
-          "0": {"type": "replace", "value": "єю"}
-        }
-      ],
-      "locative": [
-        {
-          "0": {"type": "replace", "value": "ї"}
-        }
-      ],
-      "vocative": [
-        {
-          "0": {"type": "replace", "value": "є"}
-        }
-      ]
-    }
-  },
-  {
-    "description": "друга відміна / чоловічий, жіночий роди / м'яка група / на -(і|ь)я",
-    "examples": ["юлія"],
-    "pos": "noun",
-    "gender": ["male", "female"],
-    "priority": 2,
-    "applications": [],
-    "regexp": {
-      "find": "(і|ь)я$",
+      "find": "(__голосна__|ь|й)я$",
       "modify": "(.{1})$"
     },
     "cases": {
