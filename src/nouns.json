@@ -1861,7 +1861,7 @@
     "examples": ["іваньо", "кузьо"],
     "pos": "noun",
     "gender": ["male"],
-    "priority": 2,
+    "priority": 3,
     "applications": [],
     "regexp": {
       "find": "ьо$",
@@ -2314,7 +2314,7 @@
     "examples": ["марко"],
     "pos": "noun",
     "gender": ["male"],
-    "priority": 2,
+    "priority": 3,
     "applications": [],
     "regexp": {
       "find": "ко$",
@@ -2803,10 +2803,10 @@
     }
   },
   {
-    "description": "перша відміна / чоловічий, жіночий рід / тверда група / на -(тверда_приголосна)о",
+    "description": "перша відміна / чоловічий рід / тверда група / на -(тверда_приголосна)о",
     "examples": ["петро", "павло"],
     "pos": "noun",
-    "gender": ["male", "female"],
+    "gender": ["male"],
     "priority": 2,
     "applications": [],
     "regexp": {
@@ -2848,11 +2848,11 @@
     }
   },
   {
-    "description": "перша відміна / чоловічий, жіночий рід / тверда група / на -йо",
+    "description": "перша відміна / чоловічий рід / тверда група / на -йо",
     "examples": ["йойо"],
     "pos": "noun",
     "gender": ["male"],
-    "priority": 2,
+    "priority": 3,
     "applications": [],
     "regexp": {
       "find": "йо$",
@@ -2883,6 +2883,47 @@
       "locative": [
         {
           "0": {"type": "append", "value": "ві"}
+        }
+      ],
+      "vocative": []
+    }
+  },
+  {
+    "description": "перша відміна / чоловічий рід / тверда група / на -бо",
+    "examples": ["голембо"],
+    "pos": "noun",
+    "gender": ["male"],
+    "priority": 3,
+    "applications": [],
+    "regexp": {
+      "find": "бо$",
+      "modify": "(.{1})$"
+    },
+    "cases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {"type": "replace", "value": "и"}
+        }
+      ],
+      "dative": [
+        {
+          "0": {"type": "replace", "value": "і"}
+        }
+      ],
+      "accusative": [
+        {
+          "0": {"type": "replace", "value": "у"}
+        }
+      ],
+      "ablative": [
+        {
+          "0": {"type": "replace", "value": "ою"}
+        }
+      ],
+      "locative": [
+        {
+          "0": {"type": "replace", "value": "і"}
         }
       ],
       "vocative": []
