@@ -1,40 +1,62 @@
 [
   {
     "description": "чоловічий рід / на -ой, -ий",
-    "examples": ["толстой", "сухомлинський"],
+    "examples": [
+      "толстой",
+      "сухомлинський"
+    ],
     "pos": "adjective",
-    "gender": ["male"],
+    "gender": [
+      "male"
+    ],
     "priority": 2,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "(ой|ий)$",
       "modify": "(.{2})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "ого"}
+          "0": {
+            "type": "replace",
+            "value": "ого"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "ому"}
+          "0": {
+            "type": "replace",
+            "value": "ому"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "ого"}
+          "0": {
+            "type": "replace",
+            "value": "ого"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "им"}
+          "0": {
+            "type": "replace",
+            "value": "им"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "ому"}
+          "0": {
+            "type": "replace",
+            "value": "ому"
+          }
         }
       ],
       "vocative": []
@@ -42,40 +64,61 @@
   },
   {
     "description": "чоловічий рід / на -кій (помилкова транслітерація)",
-    "examples": ["дідківській"],
+    "examples": [
+      "дідківській"
+    ],
     "pos": "adjective",
-    "gender": ["male"],
+    "gender": [
+      "male"
+    ],
     "priority": 3,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "кій$",
       "modify": "(.{2})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "ого"}
+          "0": {
+            "type": "replace",
+            "value": "ого"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "ому"}
+          "0": {
+            "type": "replace",
+            "value": "ому"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "ого"}
+          "0": {
+            "type": "replace",
+            "value": "ого"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "им"}
+          "0": {
+            "type": "replace",
+            "value": "им"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "ому"}
+          "0": {
+            "type": "replace",
+            "value": "ому"
+          }
         }
       ],
       "vocative": []
@@ -83,40 +126,61 @@
   },
   {
     "description": "чоловічий рід / на -ій",
-    "examples": ["заболотній"],
+    "examples": [
+      "заболотній"
+    ],
     "pos": "adjective",
-    "gender": ["male"],
+    "gender": [
+      "male"
+    ],
     "priority": 2,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "ій$",
       "modify": "(.{2})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "ього"}
+          "0": {
+            "type": "replace",
+            "value": "ього"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "ьому"}
+          "0": {
+            "type": "replace",
+            "value": "ьому"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "ього"}
+          "0": {
+            "type": "replace",
+            "value": "ього"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ім"}
+          "0": {
+            "type": "replace",
+            "value": "ім"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "ьому"}
+          "0": {
+            "type": "replace",
+            "value": "ьому"
+          }
         }
       ],
       "vocative": []
@@ -124,40 +188,62 @@
   },
   {
     "description": "жіночий рід / на -(тверда_приголосна)ька",
-    "examples": ["ільницька", "сумська"],
+    "examples": [
+      "ільницька",
+      "сумська"
+    ],
     "pos": "adjective",
-    "gender": ["female"],
+    "gender": [
+      "female"
+    ],
     "priority": 4,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "__тверда_приголосна__ька$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "ої"}
+          "0": {
+            "type": "replace",
+            "value": "ої"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "у"}
+          "0": {
+            "type": "replace",
+            "value": "у"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ою"}
+          "0": {
+            "type": "replace",
+            "value": "ою"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "vocative": []
@@ -165,40 +251,61 @@
   },
   {
     "description": "жіночий рід / на -ова",
-    "examples": ["іванова"],
+    "examples": [
+      "іванова"
+    ],
     "pos": "adjective",
-    "gender": ["female"],
+    "gender": [
+      "female"
+    ],
     "priority": 4,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "ова$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "ої"}
+          "0": {
+            "type": "replace",
+            "value": "ої"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "у"}
+          "0": {
+            "type": "replace",
+            "value": "у"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ою"}
+          "0": {
+            "type": "replace",
+            "value": "ою"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "vocative": []
@@ -206,40 +313,61 @@
   },
   {
     "description": "жіночий рід / на -іна",
-    "examples": ["зеленкіна"],
+    "examples": [
+      "зеленкіна"
+    ],
     "pos": "adjective",
-    "gender": ["female"],
+    "gender": [
+      "female"
+    ],
     "priority": 4,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "іна$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "ої"}
+          "0": {
+            "type": "replace",
+            "value": "ої"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "у"}
+          "0": {
+            "type": "replace",
+            "value": "у"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ою"}
+          "0": {
+            "type": "replace",
+            "value": "ою"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "vocative": []
@@ -247,40 +375,61 @@
   },
   {
     "description": "жіночий рід / на -(тверда_приголосна)а",
-    "examples": ["зелена"],
+    "examples": [
+      "зелена"
+    ],
     "pos": "adjective",
-    "gender": ["female"],
+    "gender": [
+      "female"
+    ],
     "priority": 2,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "__тверда_приголосна__а$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "ої"}
+          "0": {
+            "type": "replace",
+            "value": "ої"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "у"}
+          "0": {
+            "type": "replace",
+            "value": "у"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ою"}
+          "0": {
+            "type": "replace",
+            "value": "ою"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "vocative": []
@@ -288,40 +437,61 @@
   },
   {
     "description": "жіночий рід / на -(тверда_приголосна)я",
-    "examples": ["задорожня"],
+    "examples": [
+      "задорожня"
+    ],
     "pos": "adjective",
-    "gender": ["female"],
+    "gender": [
+      "female"
+    ],
     "priority": 2,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "__тверда_приголосна__я$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "ьої"}
+          "0": {
+            "type": "replace",
+            "value": "ьої"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "ю"}
+          "0": {
+            "type": "replace",
+            "value": "ю"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ьою"}
+          "0": {
+            "type": "replace",
+            "value": "ьою"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "vocative": []
@@ -329,40 +499,61 @@
   },
   {
     "description": "жіночий рід / на -ая",
-    "examples": ["толстая"],
+    "examples": [
+      "толстая"
+    ],
     "pos": "adjective",
-    "gender": ["female"],
+    "gender": [
+      "female"
+    ],
     "priority": 2,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "ая$",
       "modify": "(.{2})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "ої"}
+          "0": {
+            "type": "replace",
+            "value": "ої"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "ую"}
+          "0": {
+            "type": "replace",
+            "value": "ую"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ою"}
+          "0": {
+            "type": "replace",
+            "value": "ою"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "vocative": []
@@ -370,40 +561,61 @@
   },
   {
     "description": "жіночий рід / на -яя",
-    "examples": ["заболотняя"],
+    "examples": [
+      "заболотняя"
+    ],
     "pos": "adjective",
-    "gender": ["female"],
+    "gender": [
+      "female"
+    ],
     "priority": 2,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "яя$",
       "modify": "(.{2})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "ьої"}
+          "0": {
+            "type": "replace",
+            "value": "ьої"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "ю"}
+          "0": {
+            "type": "replace",
+            "value": "ю"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ьою"}
+          "0": {
+            "type": "replace",
+            "value": "ьою"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "ій"}
+          "0": {
+            "type": "replace",
+            "value": "ій"
+          }
         }
       ],
       "vocative": []
@@ -411,16 +623,20 @@
   },
   {
     "description": "множина / на -их",
-    "examples": ["седих"],
+    "examples": [
+      "седих"
+    ],
     "pos": "adjective",
-    "gender": ["male"],
+    "gender": [
+      "male"
+    ],
     "priority": 3,
-    "applications": [],
+    "usages": [],
     "regexp": {
       "find": "их$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [],
       "dative": [],
