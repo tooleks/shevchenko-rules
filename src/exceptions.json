@@ -1,466 +1,752 @@
 [
   {
     "description": "чоловічі по батькові та прізвища / на -ич",
-    "examples": ["валерійович", "риндич"],
+    "examples": [
+      "валерійович",
+      "риндич"
+    ],
     "pos": "noun",
-    "gender": ["male"],
+    "gender": [
+      "male"
+    ],
     "priority": 2,
-    "applications": ["middleName", "lastName"],
+    "usages": [
+      "middleName",
+      "lastName"
+    ],
     "regexp": {
       "find": "ич$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "append", "value": "а"}
+          "0": {
+            "type": "append",
+            "value": "а"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "append", "value": "у"}
+          "0": {
+            "type": "append",
+            "value": "у"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "append", "value": "а"}
+          "0": {
+            "type": "append",
+            "value": "а"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "append", "value": "ем"}
+          "0": {
+            "type": "append",
+            "value": "ем"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "append", "value": "у"}
+          "0": {
+            "type": "append",
+            "value": "у"
+          }
         }
       ],
       "vocative": [
         {
-          "0": {"type": "append", "value": "у"}
+          "0": {
+            "type": "append",
+            "value": "у"
+          }
         }
       ]
     }
   },
   {
     "description": "жіночі по батькові / на -на",
-    "examples": ["юріївна"],
+    "examples": [
+      "юріївна"
+    ],
     "pos": "noun",
-    "gender": ["female"],
+    "gender": [
+      "female"
+    ],
     "priority": 2,
-    "applications": ["middleName"],
+    "usages": [
+      "middleName"
+    ],
     "regexp": {
       "find": "на$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "и"}
+          "0": {
+            "type": "replace",
+            "value": "и"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "у"}
+          "0": {
+            "type": "replace",
+            "value": "у"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ою"}
+          "0": {
+            "type": "replace",
+            "value": "ою"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "vocative": [
         {
-          "0": {"type": "replace", "value": "о"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          }
         }
       ]
     }
   },
   {
     "description": "жіночі імена / на -(тверда_приголосна)я",
-    "examples": ["неля"],
+    "examples": [
+      "неля"
+    ],
     "pos": "noun",
-    "gender": ["female"],
+    "gender": [
+      "female"
+    ],
     "priority": 2,
-    "applications": ["firstName"],
+    "usages": [
+      "firstName"
+    ],
     "regexp": {
       "find": "__тверда_приголосна__я$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "ю"}
+          "0": {
+            "type": "replace",
+            "value": "ю"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ею"}
+          "0": {
+            "type": "replace",
+            "value": "ею"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "vocative": [
         {
-          "0": {"type": "replace", "value": "ю"}
+          "0": {
+            "type": "replace",
+            "value": "ю"
+          }
         }
       ]
     }
   },
   {
     "description": "чоловічі імена / на -ня",
-    "examples": ["женя"],
+    "examples": [
+      "женя"
+    ],
     "pos": "noun",
-    "gender": ["male"],
+    "gender": [
+      "male"
+    ],
     "priority": 2,
-    "applications": ["firstName"],
+    "usages": [
+      "firstName"
+    ],
     "regexp": {
       "find": "ня$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "ю"}
+          "0": {
+            "type": "replace",
+            "value": "ю"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ею"}
+          "0": {
+            "type": "replace",
+            "value": "ею"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "vocative": [
         {
-          "0": {"type": "replace", "value": "ю"}
+          "0": {
+            "type": "replace",
+            "value": "ю"
+          }
         }
       ]
     }
   },
   {
     "description": "жіноче ім'я любов",
-    "examples": ["любов"],
+    "examples": [
+      "любов"
+    ],
     "pos": "noun",
-    "gender": ["female"],
+    "gender": [
+      "female"
+    ],
     "priority": 6,
-    "applications": ["firstName"],
+    "usages": [
+      "firstName"
+    ],
     "regexp": {
       "find": "^любов$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "append", "value": "і"}
+          "0": {
+            "type": "append",
+            "value": "і"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "append", "value": "і"}
+          "0": {
+            "type": "append",
+            "value": "і"
+          }
         }
       ],
       "accusative": [],
       "ablative": [
         {
-          "0": {"type": "append", "value": "'ю"}
+          "0": {
+            "type": "append",
+            "value": "'ю"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "append", "value": "і"}
+          "0": {
+            "type": "append",
+            "value": "і"
+          }
         }
       ],
       "vocative": [
         {
-          "0": {"type": "append", "value": "е"}
+          "0": {
+            "type": "append",
+            "value": "е"
+          }
         }
       ]
     }
   },
   {
     "description": "чоловічі імена ігор, лазар",
-    "examples": ["ігор", "лазар"],
+    "examples": [
+      "ігор",
+      "лазар"
+    ],
     "pos": "noun",
-    "gender": ["male"],
+    "gender": [
+      "male"
+    ],
     "priority": 5,
-    "applications": [],
+    "usages": [],
     "regexp": {
       "find": "^(ігор|лазар)$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "append", "value": "я"}
+          "0": {
+            "type": "append",
+            "value": "я"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "append", "value": "ю"}
+          "0": {
+            "type": "append",
+            "value": "ю"
+          }
         },
         {
-          "0": {"type": "append", "value": "еві"}
+          "0": {
+            "type": "append",
+            "value": "еві"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "append", "value": "я"}
+          "0": {
+            "type": "append",
+            "value": "я"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "append", "value": "ем"}
+          "0": {
+            "type": "append",
+            "value": "ем"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "append", "value": "ю"}
+          "0": {
+            "type": "append",
+            "value": "ю"
+          }
         },
         {
-          "0": {"type": "append", "value": "еві"}
+          "0": {
+            "type": "append",
+            "value": "еві"
+          }
         }
       ],
       "vocative": [
         {
-          "0": {"type": "append", "value": "ю"}
+          "0": {
+            "type": "append",
+            "value": "ю"
+          }
         }
       ]
     }
   },
   {
     "description": "чоловічі імена федір, сидір",
-    "examples": ["федір", "сидір"],
+    "examples": [
+      "федір",
+      "сидір"
+    ],
     "pos": "noun",
-    "gender": ["male"],
+    "gender": [
+      "male"
+    ],
     "priority": 6,
-    "applications": ["firstName"],
+    "usages": [
+      "firstName"
+    ],
     "regexp": {
       "find": "^(федір|сидір)$",
       "modify": "(.{1})(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "о"},
-          "1": {"type": "append", "value": "а"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          },
+          "1": {
+            "type": "append",
+            "value": "а"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "о"},
-          "1": {"type": "append", "value": "у"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          },
+          "1": {
+            "type": "append",
+            "value": "у"
+          }
         },
         {
-          "0": {"type": "replace", "value": "о"},
-          "1": {"type": "append", "value": "ові"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          },
+          "1": {
+            "type": "append",
+            "value": "ові"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "о"},
-          "1": {"type": "append", "value": "а"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          },
+          "1": {
+            "type": "append",
+            "value": "а"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "о"},
-          "1": {"type": "append", "value": "ом"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          },
+          "1": {
+            "type": "append",
+            "value": "ом"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "о"},
-          "1": {"type": "append", "value": "ові"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          },
+          "1": {
+            "type": "append",
+            "value": "ові"
+          }
         },
         {
-          "0": {"type": "replace", "value": "о"},
-          "1": {"type": "append", "value": "у"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          },
+          "1": {
+            "type": "append",
+            "value": "у"
+          }
         }
       ],
       "vocative": [
         {
-          "0": {"type": "replace", "value": "о"},
-          "1": {"type": "append", "value": "е"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          },
+          "1": {
+            "type": "append",
+            "value": "е"
+          }
         }
       ]
     }
   },
   {
     "description": "слово суддя",
-    "examples": ["суддя"],
+    "examples": [
+      "суддя"
+    ],
     "pos": "noun",
-    "gender": ["male", "female"],
+    "gender": [
+      "male",
+      "female"
+    ],
     "priority": 6,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "^суддя$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "ю"}
+          "0": {
+            "type": "replace",
+            "value": "ю"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ею"}
+          "0": {
+            "type": "replace",
+            "value": "ею"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "vocative": [
         {
-          "0": {"type": "replace", "value": "е"}
+          "0": {
+            "type": "replace",
+            "value": "е"
+          }
         }
       ]
     }
   },
   {
     "description": "слово рілля",
-    "examples": ["рілля"],
+    "examples": [
+      "рілля"
+    ],
     "pos": "noun",
-    "gender": ["male", "female"],
+    "gender": [
+      "male",
+      "female"
+    ],
     "priority": 6,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "^рілля$",
       "modify": "(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "accusative": [
         {
-          "0": {"type": "replace", "value": "ю"}
+          "0": {
+            "type": "replace",
+            "value": "ю"
+          }
         }
       ],
       "ablative": [
         {
-          "0": {"type": "replace", "value": "ею"}
+          "0": {
+            "type": "replace",
+            "value": "ею"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "vocative": [
         {
-          "0": {"type": "replace", "value": "е"}
+          "0": {
+            "type": "replace",
+            "value": "е"
+          }
         }
       ]
     }
   },
   {
     "description": "слово сіль",
-    "examples": ["сіль"],
+    "examples": [
+      "сіль"
+    ],
     "pos": "noun",
-    "gender": ["male"],
+    "gender": [
+      "male"
+    ],
     "priority": 5,
-    "applications": ["lastName"],
+    "usages": [
+      "lastName"
+    ],
     "regexp": {
       "find": "^сіль$",
       "modify": "(.{1})(.{1})(.{1})$"
     },
-    "cases": {
+    "inflectionCases": {
       "nominative": [],
       "genitive": [
         {
-          "0": {"type": "replace", "value": "о"},
-          "2": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          },
+          "2": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "dative": [
         {
-          "0": {"type": "replace", "value": "о"},
-          "2": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          },
+          "2": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "accusative": [],
       "ablative": [
         {
-          "2": {"type": "replace", "value": "лю"}
+          "2": {
+            "type": "replace",
+            "value": "лю"
+          }
         }
       ],
       "locative": [
         {
-          "0": {"type": "replace", "value": "о"},
-          "2": {"type": "replace", "value": "і"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          },
+          "2": {
+            "type": "replace",
+            "value": "і"
+          }
         }
       ],
       "vocative": [
         {
-          "0": {"type": "replace", "value": "о"},
-          "2": {"type": "replace", "value": "е"}
+          "0": {
+            "type": "replace",
+            "value": "о"
+          },
+          "2": {
+            "type": "replace",
+            "value": "е"
+          }
         }
       ]
     }

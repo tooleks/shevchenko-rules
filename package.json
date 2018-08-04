@@ -4,7 +4,7 @@
   "description": "Set of rules for \"shevchenko\" libraries to inflect Ukrainian first, last and middle names.",
   "main": "index.js",
   "scripts": {
-    "build": "gulp build",
+    "build": "./node_modules/.bin/gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -35,6 +35,7 @@
   },
   "homepage": "https://github.com/tooleks/shevchenko-rules#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-replace": "^1.0.0"
   }
 }
