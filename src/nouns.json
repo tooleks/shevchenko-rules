@@ -5451,7 +5451,7 @@
     }
   },
   {
-    "description": "жіночі імена / на -('|'|`)я",
+    "description": "жіночі імена / на -('|`)я",
     "examples": [
       "дар'я",
       "мар'я"
@@ -5463,7 +5463,7 @@
     "priority": 1,
     "usages": ["firstName"],
     "regexp": {
-      "find": "('|'|`)я$",
+      "find": "('|`)я$",
       "modify": "(.{1})$"
     },
     "inflectionCases": {
