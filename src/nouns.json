@@ -5449,5 +5449,73 @@
         }
       ]
     }
+  },
+  {
+    "description": "жіночі імена / на -('|`)я",
+    "examples": [
+      "дар'я",
+      "мар'я"
+    ],
+    "pos": "noun",
+    "gender": [
+      "female"
+    ],
+    "priority": 1,
+    "usages": ["firstName"],
+    "regexp": {
+      "find": "('|`)я$",
+      "modify": "(.{1})$"
+    },
+    "inflectionCases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {
+            "type": "replace",
+            "value": "ї"
+          }
+        }
+      ],
+      "dative": [
+        {
+          "0": {
+            "type": "replace",
+            "value": "ї"
+          }
+        }
+      ],
+      "accusative": [
+        {
+          "0": {
+            "type": "replace",
+            "value": "ю"
+          }
+        }
+      ],
+      "ablative": [
+        {
+          "0": {
+            "type": "replace",
+            "value": "єю"
+          }
+        }
+      ],
+      "locative": [
+        {
+          "0": {
+            "type": "replace",
+            "value": "ї"
+          }
+        }
+      ],
+      "vocative": [
+        {
+          "0": {
+            "type": "replace",
+            "value": "є"
+          }
+        }
+      ]
+    }
   }
 ]
