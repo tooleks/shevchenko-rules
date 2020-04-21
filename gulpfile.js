@@ -15,7 +15,7 @@ gulp.task('bundle:rules', async () => {
   const rules = fileNames
     .reduce((rules, fileName) => rules.concat(require('./src/' + fileName)), [])
     .sort((firstRule, secondRule) => secondRule.priority - firstRule.priority);
-  await writeFileAsync('./dist/rules.json', JSON.stringify(rules));
+  await writeFileAsync('./dist/rules.json', JSON.stringify(rules, null, 2));
 });
 
 gulp.task('replace:macro', () => {
