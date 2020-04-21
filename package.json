@@ -1,19 +1,10 @@
 {
-  "description": "Set of rules for \"shevchenko\" libraries to inflect Ukrainian first, last and middle names.",
+  "private": true,
+  "name": "shevchenko-rules",
+  "version": "0.0.0",
   "scripts": {
     "build": "gulp build"
   },
-  "keywords": [
-    "ukrainian anthroponyms inflector",
-    "grammatical case",
-    "nominative grammatical case",
-    "genitive grammatical case",
-    "dative grammatical case",
-    "accusative grammatical case",
-    "ablative grammatical case",
-    "locative grammatical case",
-    "vocative grammatical case"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tooleks/shevchenko-rules.git"
