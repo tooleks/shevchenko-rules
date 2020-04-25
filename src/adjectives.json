@@ -5,19 +5,19 @@
       "толстой",
       "сухомлинський"
     ],
-    "pos": "adjective",
+    "partOfSpeech": "adjective",
     "gender": [
       "male"
     ],
     "priority": 2,
-    "usages": [
+    "usage": [
       "lastName"
     ],
-    "regexp": {
+    "pattern": {
       "find": "(ой|ий)$",
       "modify": "(.{2})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -67,19 +67,19 @@
     "examples": [
       "дідківській"
     ],
-    "pos": "adjective",
+    "partOfSpeech": "adjective",
     "gender": [
       "male"
     ],
     "priority": 3,
-    "usages": [
+    "usage": [
       "lastName"
     ],
-    "regexp": {
+    "pattern": {
       "find": "кій$",
       "modify": "(.{2})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -129,19 +129,19 @@
     "examples": [
       "заболотній"
     ],
-    "pos": "adjective",
+    "partOfSpeech": "adjective",
     "gender": [
       "male"
     ],
     "priority": 2,
-    "usages": [
+    "usage": [
       "lastName"
     ],
-    "regexp": {
+    "pattern": {
       "find": "ій$",
       "modify": "(.{2})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -187,24 +187,24 @@
     }
   },
   {
-    "description": "жіночий рід / на -(тверда_приголосна)ька",
+    "description": "жіночий рід / на -(тверда приголосна)ька",
     "examples": [
       "ільницька",
       "сумська"
     ],
-    "pos": "adjective",
+    "partOfSpeech": "adjective",
     "gender": [
       "female"
     ],
     "priority": 4,
-    "usages": [
+    "usage": [
       "lastName"
     ],
-    "regexp": {
-      "find": "__тверда_приголосна__ька$",
+    "pattern": {
+      "find": "<тверда-приголосна>ька$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -254,19 +254,19 @@
     "examples": [
       "іванова"
     ],
-    "pos": "adjective",
+    "partOfSpeech": "adjective",
     "gender": [
       "female"
     ],
     "priority": 4,
-    "usages": [
+    "usage": [
       "lastName"
     ],
-    "regexp": {
+    "pattern": {
       "find": "ова$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -316,19 +316,19 @@
     "examples": [
       "зеленкіна"
     ],
-    "pos": "adjective",
+    "partOfSpeech": "adjective",
     "gender": [
       "female"
     ],
     "priority": 4,
-    "usages": [
+    "usage": [
       "lastName"
     ],
-    "regexp": {
+    "pattern": {
       "find": "іна$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -374,23 +374,23 @@
     }
   },
   {
-    "description": "жіночий рід / на -(тверда_приголосна)а",
+    "description": "жіночий рід / на -(тверда приголосна)а",
     "examples": [
       "зелена"
     ],
-    "pos": "adjective",
+    "partOfSpeech": "adjective",
     "gender": [
       "female"
     ],
     "priority": 2,
-    "usages": [
+    "usage": [
       "lastName"
     ],
-    "regexp": {
-      "find": "__тверда_приголосна__а$",
+    "pattern": {
+      "find": "<тверда-приголосна>а$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -436,23 +436,23 @@
     }
   },
   {
-    "description": "жіночий рід / на -(тверда_приголосна)я",
+    "description": "жіночий рід / на -(тверда приголосна)я",
     "examples": [
       "задорожня"
     ],
-    "pos": "adjective",
+    "partOfSpeech": "adjective",
     "gender": [
       "female"
     ],
     "priority": 2,
-    "usages": [
+    "usage": [
       "lastName"
     ],
-    "regexp": {
-      "find": "__тверда_приголосна__я$",
+    "pattern": {
+      "find": "<тверда-приголосна>я$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -502,19 +502,19 @@
     "examples": [
       "толстая"
     ],
-    "pos": "adjective",
+    "partOfSpeech": "adjective",
     "gender": [
       "female"
     ],
     "priority": 2,
-    "usages": [
+    "usage": [
       "lastName"
     ],
-    "regexp": {
+    "pattern": {
       "find": "ая$",
       "modify": "(.{2})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -564,19 +564,19 @@
     "examples": [
       "заболотняя"
     ],
-    "pos": "adjective",
+    "partOfSpeech": "adjective",
     "gender": [
       "female"
     ],
     "priority": 2,
-    "usages": [
+    "usage": [
       "lastName"
     ],
-    "regexp": {
+    "pattern": {
       "find": "яя$",
       "modify": "(.{2})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -626,17 +626,17 @@
     "examples": [
       "седих"
     ],
-    "pos": "adjective",
+    "partOfSpeech": "adjective",
     "gender": [
       "male"
     ],
     "priority": 3,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "их$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [],
       "dative": [],

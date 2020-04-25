@@ -1,20 +1,20 @@
 [
   {
-    "description": "друга відміна / чоловічий рід / м'яка група / на -(голосна)(тверда_приголосна)е(ц|н)ь",
+    "description": "друга відміна / чоловічий рід / м'яка група / на -(голосна)(тверда приголосна)е(ц|н)ь",
     "examples": [
       "половець"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 5,
-    "usages": [],
-    "regexp": {
-      "find": "__голосна____тверда_приголосна__е(ц|н)ь$",
+    "usage": [],
+    "pattern": {
+      "find": "<голосна><тверда-приголосна>е(ц|н)ь$",
       "modify": "(.{1})(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -111,21 +111,21 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / м'яка група / на -(тверда_приголосна)(тверда_приголосна)е(ц|н)ь",
+    "description": "друга відміна / чоловічий рід / м'яка група / на -(тверда приголосна)(тверда приголосна)е(ц|н)ь",
     "examples": [
       "жнець"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 5,
-    "usages": [],
-    "regexp": {
-      "find": "__тверда_приголосна____тверда_приголосна__е(ц|н)ь$",
+    "usage": [],
+    "pattern": {
+      "find": "<тверда-приголосна><тверда-приголосна>е(ц|н)ь$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -194,17 +194,17 @@
     "examples": [
       "стрілець"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 6,
-    "usages": [],
-    "regexp": {
-      "find": "__голосна__лець$",
+    "usage": [],
+    "pattern": {
+      "find": "<голосна>лець$",
       "modify": "(.{1})(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -305,17 +305,17 @@
     "examples": [
       "заєць"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
-      "find": "__голосна__єць$",
+    "usage": [],
+    "pattern": {
+      "find": "<голосна>єць$",
       "modify": "(.{1})(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -417,17 +417,17 @@
       "кіт",
       "кріт"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 6,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "(к|п|кр|пл|др|жив)іт$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -528,17 +528,17 @@
     "examples": [
       "грім"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 6,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "грім$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -639,17 +639,17 @@
     "examples": [
       "узвіз"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "віз$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -750,17 +750,17 @@
     "examples": [
       "яків"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": ".ків$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -861,17 +861,17 @@
     "examples": [
       "прокіп"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": ".(к|р)іп$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -972,17 +972,17 @@
     "examples": [
       "прокіп"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "піп$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -1084,17 +1084,17 @@
       "рід",
       "плід"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 5,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "(рід|плід)$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -1195,17 +1195,17 @@
     "examples": [
       "дзвін"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 6,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "(дзвін|хрін)$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -1306,17 +1306,17 @@
     "examples": [
       "кривоніс"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "ніс$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -1418,17 +1418,17 @@
       "дивозір",
       "явір"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 5,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "(з|яв)ір$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -1529,17 +1529,17 @@
     "examples": [
       "рябовіл"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "віл$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -1640,17 +1640,17 @@
     "examples": [
       "пиріг"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "ріг$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -1751,17 +1751,17 @@
     "examples": [
       "прихід"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "хід$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -1862,17 +1862,17 @@
     "examples": [
       "батіг"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 6,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "батіг$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -1973,17 +1973,17 @@
     "examples": [
       "орел"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 5,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "орел$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -2074,17 +2074,17 @@
     "examples": [
       "якір"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 5,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "якір$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -2195,17 +2195,17 @@
     "examples": [
       "сокіл"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 6,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "сокіл$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -2296,17 +2296,17 @@
     "examples": [
       "лебідь"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 5,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": ".бідь$",
       "modify": "(.{1})(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -2407,17 +2407,17 @@
     "examples": [
       "кремінь"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 5,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": ".мінь$",
       "modify": "(.{1})(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -2518,17 +2518,17 @@
     "examples": [
       "кріль"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 6,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "кріль$",
       "modify": "(.{1})(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -2630,19 +2630,19 @@
       "нінель",
       "мішель"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "female"
     ],
     "priority": 4,
-    "usages": [
+    "usage": [
       "firstName"
     ],
-    "regexp": {
+    "pattern": {
       "find": "ель$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -2689,17 +2689,17 @@
     "examples": [
       "кисіль"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 5,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "сіль$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -2768,17 +2768,17 @@
     "examples": [
       "кінь"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 5,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "кінь$",
       "modify": "(.{1})(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -2879,17 +2879,17 @@
     "examples": [
       "нога"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 3,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "га$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -2954,19 +2954,19 @@
     "examples": [
       "павлов"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 2,
-    "usages": [
+    "usage": [
       "lastName"
     ],
-    "regexp": {
+    "pattern": {
       "find": "ов$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3023,19 +3023,19 @@
     "examples": [
       "ковалів"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 2,
-    "usages": [
+    "usage": [
       "lastName"
     ],
-    "regexp": {
+    "pattern": {
       "find": "ів$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3092,17 +3092,17 @@
     "examples": [
       "ковалишин"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "ишин$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3159,17 +3159,17 @@
     "examples": [
       "живаго"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "(аго|ово)$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [],
       "dative": [],
@@ -3184,17 +3184,17 @@
     "examples": [
       "скляр"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "яр$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3263,17 +3263,17 @@
     "examples": [
       "розкіш"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 3,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "кіш$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3355,17 +3355,17 @@
       "іваньо",
       "кузьо"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 3,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "ьо$",
       "modify": "(.{2})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3411,21 +3411,21 @@
     }
   },
   {
-    "description": "друга відміна / жіночий рід / тверда, м'яка група / на -(о|ь|тверда_приголосна)",
+    "description": "друга відміна / жіночий рід / тверда, м'яка група / на -(о|ь|тверда приголосна)",
     "examples": [
       "шевченко"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "female"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
-      "find": "(о|ь|__тверда_приголосна__)$",
+    "usage": [],
+    "pattern": {
+      "find": "(о|ь|<тверда-приголосна>)$",
       "modify": "(.{2})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [],
       "dative": [],
@@ -3440,17 +3440,17 @@
     "examples": [
       "сашок"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "ок$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3541,17 +3541,17 @@
     "examples": [
       "марек"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
-      "find": "е__тверда_приголосна__$",
+    "usage": [],
+    "pattern": {
+      "find": "е<тверда-приголосна>$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3609,17 +3609,17 @@
       "семен",
       "лев"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 3,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "е(в|н)$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3676,17 +3676,17 @@
     "examples": [
       "вітер"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "тер$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3767,17 +3767,17 @@
     "examples": [
       "пес"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 3,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "пес$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3854,22 +3854,22 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / м'яка група / на -(тверда_приголосна)я",
+    "description": "друга відміна / чоловічий рід / м'яка група / на -(тверда приголосна)я",
     "examples": [
       "гмиря"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male",
       "female"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
-      "find": "__тверда_приголосна__я$",
+    "usage": [],
+    "pattern": {
+      "find": "<тверда-приголосна>я$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3927,18 +3927,18 @@
       "юлія",
       "майя"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male",
       "female"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
-      "find": "(__голосна__|ь|й)я$",
+    "usage": [],
+    "pattern": {
+      "find": "(<голосна>|ь|й)я$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -3996,17 +3996,17 @@
       "януш",
       "джордж"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "(дж|ж|ч|ш)$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4081,17 +4081,17 @@
     "examples": [
       "марко"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 3,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "ко$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4156,21 +4156,21 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / тверда група / на -(тверда_приголосна)",
+    "description": "друга відміна / чоловічий рід / тверда група / на -(тверда приголосна)",
     "examples": [
       "олександр"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 1,
-    "usages": [],
-    "regexp": {
-      "find": "__тверда_приголосна__$",
+    "usage": [],
+    "pattern": {
+      "find": "<тверда-приголосна>$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4240,17 +4240,17 @@
       "кузик",
       "мисяк"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "к$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4319,17 +4319,17 @@
     "examples": [
       "кожух"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "х$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4392,18 +4392,18 @@
     "examples": [
       "анна"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male",
       "female"
     ],
     "priority": 1,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "а$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4460,17 +4460,17 @@
     "examples": [
       "валерій"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 1,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "й$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4545,17 +4545,17 @@
     "examples": [
       "батий"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 3,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "ий$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4618,18 +4618,18 @@
     "examples": [
       "старуха"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male",
       "female"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "ха$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4700,18 +4700,18 @@
     "examples": [
       "прилука"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male",
       "female"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "ка$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4782,17 +4782,17 @@
     "examples": [
       "петрунь"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 1,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "ь$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4845,22 +4845,22 @@
     }
   },
   {
-    "description": "перша відміна / чоловічий рід / тверда група / на -(тверда_приголосна)о",
+    "description": "перша відміна / чоловічий рід / тверда група / на -(тверда приголосна)о",
     "examples": [
       "петро",
       "павло"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
-      "find": "__тверда_приголосна__о$",
+    "usage": [],
+    "pattern": {
+      "find": "<тверда-приголосна>о$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4917,17 +4917,17 @@
     "examples": [
       "йойо"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 3,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "йо$",
       "modify": "(.{2})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -4977,17 +4977,17 @@
     "examples": [
       "голембо"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 3,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "бо$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -5037,17 +5037,17 @@
     "examples": [
       "ольга"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "female"
     ],
     "priority": 1,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "(г|ґ)а$",
       "modify": "(.{1})(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -5112,17 +5112,17 @@
     "examples": [
       "світ"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "світ$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -5179,18 +5179,18 @@
     "examples": [
       "поле"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male",
       "female"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "ле$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -5240,17 +5240,17 @@
     "examples": [
       "куліш"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 5,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "куліш$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -5307,18 +5307,18 @@
     "examples": [
       "мойша"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male",
       "female"
     ],
     "priority": 2,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "(дж|ж|ч|ш|щ)а$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -5376,17 +5376,17 @@
       "дір",
       "вір"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "male"
     ],
     "priority": 4,
-    "usages": [],
-    "regexp": {
+    "usage": [],
+    "pattern": {
       "find": "(в|д)ір$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
@@ -5456,17 +5456,17 @@
       "дар'я",
       "мар'я"
     ],
-    "pos": "noun",
+    "partOfSpeech": "noun",
     "gender": [
       "female"
     ],
     "priority": 1,
-    "usages": ["firstName"],
-    "regexp": {
+    "usage": ["firstName"],
+    "pattern": {
       "find": "('|`)я$",
       "modify": "(.{1})$"
     },
-    "inflectionCases": {
+    "grammaticalCases": {
       "nominative": [],
       "genitive": [
         {
