@@ -301,117 +301,6 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / м'яка група / на -(голосна)лець",
-    "examples": [
-      "стрілець"
-    ],
-    "partOfSpeech": "noun",
-    "gender": [
-      "male"
-    ],
-    "priority": 6,
-    "usage": [],
-    "pattern": {
-      "find": "<голосна>лець$",
-      "modify": "(.{1})(.{1})(.{1})$"
-    },
-    "grammaticalCases": {
-      "nominative": [],
-      "genitive": [
-        {
-          "0": {
-            "type": "replace",
-            "value": "ь"
-          },
-          "2": {
-            "type": "replace",
-            "value": "я"
-          }
-        }
-      ],
-      "dative": [
-        {
-          "0": {
-            "type": "replace",
-            "value": "ь"
-          },
-          "2": {
-            "type": "replace",
-            "value": "ю"
-          }
-        },
-        {
-          "0": {
-            "type": "replace",
-            "value": "ь"
-          },
-          "2": {
-            "type": "replace",
-            "value": "еві"
-          }
-        }
-      ],
-      "accusative": [
-        {
-          "0": {
-            "type": "replace",
-            "value": "ь"
-          },
-          "2": {
-            "type": "replace",
-            "value": "я"
-          }
-        }
-      ],
-      "ablative": [
-        {
-          "0": {
-            "type": "replace",
-            "value": "ь"
-          },
-          "2": {
-            "type": "replace",
-            "value": "ем"
-          }
-        }
-      ],
-      "locative": [
-        {
-          "0": {
-            "type": "replace",
-            "value": "ь"
-          },
-          "2": {
-            "type": "replace",
-            "value": "ю"
-          }
-        },
-        {
-          "0": {
-            "type": "replace",
-            "value": "ь"
-          },
-          "2": {
-            "type": "replace",
-            "value": "еві"
-          }
-        }
-      ],
-      "vocative": [
-        {
-          "0": {
-            "type": "replace",
-            "value": "ь"
-          },
-          "2": {
-            "type": "replace",
-            "value": "ю"
-          }
-        }
-      ]
-    }
-  },
-  {
     "description": "друга відміна / чоловічий рід / м'яка група / на -(голосна)єць",
     "examples": [
       "заєць"
@@ -857,7 +746,7 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / тверда група / на -.ків",
+    "description": "друга відміна / чоловічий рід / тверда група / на -ків",
     "examples": [
       "яків"
     ],
@@ -968,7 +857,7 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / тверда група / на -.(к|р)іп",
+    "description": "друга відміна / чоловічий рід / тверда група / на -(к|р)іп",
     "examples": [
       "прокіп"
     ],
@@ -2484,7 +2373,7 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / м'яка група / на -.бідь",
+    "description": "друга відміна / чоловічий рід / м'яка група / на -бідь",
     "examples": [
       "лебідь"
     ],
@@ -2595,7 +2484,7 @@
     }
   },
   {
-    "description": "друга відміна / чоловічий рід / м'яка група / на -.мінь",
+    "description": "друга відміна / чоловічий рід / м'яка група / на -мінь",
     "examples": [
       "кремінь"
     ],
@@ -5653,7 +5542,9 @@
       "female"
     ],
     "priority": 1,
-    "usage": ["firstName"],
+    "usage": [
+      "firstName"
+    ],
     "pattern": {
       "find": "('|`)я$",
       "modify": "(.{1})$"
