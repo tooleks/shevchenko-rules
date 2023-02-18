@@ -5,14 +5,14 @@
       "валерійович",
       "риндич"
     ],
-    "partOfSpeech": "noun",
+    "wordClass": "noun",
     "gender": [
-      "male"
+      "masculine"
     ],
     "priority": 2,
-    "usage": [
-      "middleName",
-      "lastName"
+    "application": [
+      "patronymicName",
+      "familyName"
     ],
     "pattern": {
       "find": "ич$",
@@ -23,7 +23,7 @@
       "genitive": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "а"
           }
         }
@@ -31,7 +31,7 @@
       "dative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "у"
           }
         }
@@ -39,7 +39,7 @@
       "accusative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "а"
           }
         }
@@ -47,7 +47,7 @@
       "ablative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "ем"
           }
         }
@@ -55,7 +55,7 @@
       "locative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "у"
           }
         }
@@ -63,7 +63,7 @@
       "vocative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "у"
           }
         }
@@ -75,14 +75,14 @@
     "examples": [
       "ілліч"
     ],
-    "partOfSpeech": "noun",
+    "wordClass": "noun",
     "gender": [
-      "male"
+      "masculine"
     ],
     "priority": 2,
-    "usage": [
-      "middleName",
-      "lastName"
+    "application": [
+      "patronymicName",
+      "familyName"
     ],
     "pattern": {
       "find": "іч$",
@@ -93,7 +93,7 @@
       "genitive": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "а"
           }
         }
@@ -101,13 +101,13 @@
       "dative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "у"
           }
         },
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "еві"
           }
         }
@@ -115,7 +115,7 @@
       "accusative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "а"
           }
         }
@@ -123,7 +123,7 @@
       "ablative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "ем"
           }
         }
@@ -131,19 +131,19 @@
       "locative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "і"
           }
         },
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "у"
           }
         },
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "еві"
           }
         }
@@ -151,7 +151,7 @@
       "vocative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "у"
           }
         }
@@ -163,13 +163,13 @@
     "examples": [
       "юріївна"
     ],
-    "partOfSpeech": "noun",
+    "wordClass": "noun",
     "gender": [
-      "female"
+      "feminine"
     ],
     "priority": 2,
-    "usage": [
-      "middleName"
+    "application": [
+      "patronymicName"
     ],
     "pattern": {
       "find": "на$",
@@ -180,7 +180,7 @@
       "genitive": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "и"
           }
         }
@@ -188,7 +188,7 @@
       "dative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -196,7 +196,7 @@
       "accusative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "у"
           }
         }
@@ -204,7 +204,7 @@
       "ablative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "ою"
           }
         }
@@ -212,7 +212,7 @@
       "locative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -220,7 +220,7 @@
       "vocative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           }
         }
@@ -232,16 +232,16 @@
     "examples": [
       "неля"
     ],
-    "partOfSpeech": "noun",
+    "wordClass": "noun",
     "gender": [
-      "female"
+      "feminine"
     ],
     "priority": 2,
-    "usage": [
-      "firstName"
+    "application": [
+      "givenName"
     ],
     "pattern": {
-      "find": "<тверда-приголосна>я$",
+      "find": "[тверда_приголосна]я$",
       "modify": "(.{1})$"
     },
     "grammaticalCases": {
@@ -249,7 +249,7 @@
       "genitive": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -257,7 +257,7 @@
       "dative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -265,7 +265,7 @@
       "accusative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "ю"
           }
         }
@@ -273,7 +273,7 @@
       "ablative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "ею"
           }
         }
@@ -281,7 +281,7 @@
       "locative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -289,7 +289,7 @@
       "vocative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "ю"
           }
         }
@@ -301,13 +301,13 @@
     "examples": [
       "женя"
     ],
-    "partOfSpeech": "noun",
+    "wordClass": "noun",
     "gender": [
-      "male"
+      "masculine"
     ],
     "priority": 2,
-    "usage": [
-      "firstName"
+    "application": [
+      "givenName"
     ],
     "pattern": {
       "find": "ня$",
@@ -318,7 +318,7 @@
       "genitive": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -326,7 +326,7 @@
       "dative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -334,7 +334,7 @@
       "accusative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "ю"
           }
         }
@@ -342,7 +342,7 @@
       "ablative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "ею"
           }
         }
@@ -350,7 +350,7 @@
       "locative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -358,7 +358,7 @@
       "vocative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "ю"
           }
         }
@@ -370,13 +370,13 @@
     "examples": [
       "любов"
     ],
-    "partOfSpeech": "noun",
+    "wordClass": "noun",
     "gender": [
-      "female"
+      "feminine"
     ],
     "priority": 6,
-    "usage": [
-      "firstName"
+    "application": [
+      "givenName"
     ],
     "pattern": {
       "find": "^любов$",
@@ -387,7 +387,7 @@
       "genitive": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "і"
           }
         }
@@ -395,7 +395,7 @@
       "dative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "і"
           }
         }
@@ -404,7 +404,7 @@
       "ablative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "'ю"
           }
         }
@@ -412,7 +412,7 @@
       "locative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "і"
           }
         }
@@ -420,7 +420,7 @@
       "vocative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "е"
           }
         }
@@ -433,12 +433,12 @@
       "ігор",
       "лазар"
     ],
-    "partOfSpeech": "noun",
+    "wordClass": "noun",
     "gender": [
-      "male"
+      "masculine"
     ],
     "priority": 5,
-    "usage": [],
+    "application": [],
     "pattern": {
       "find": "^(ігор|лазар)$",
       "modify": "(.{1})$"
@@ -448,7 +448,7 @@
       "genitive": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "я"
           }
         }
@@ -456,13 +456,13 @@
       "dative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "ю"
           }
         },
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "еві"
           }
         }
@@ -470,7 +470,7 @@
       "accusative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "я"
           }
         }
@@ -478,7 +478,7 @@
       "ablative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "ем"
           }
         }
@@ -486,13 +486,13 @@
       "locative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "ю"
           }
         },
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "еві"
           }
         }
@@ -500,7 +500,7 @@
       "vocative": [
         {
           "0": {
-            "type": "append",
+            "action": "append",
             "value": "ю"
           }
         }
@@ -513,13 +513,13 @@
       "федір",
       "сидір"
     ],
-    "partOfSpeech": "noun",
+    "wordClass": "noun",
     "gender": [
-      "male"
+      "masculine"
     ],
     "priority": 6,
-    "usage": [
-      "firstName"
+    "application": [
+      "givenName"
     ],
     "pattern": {
       "find": "^(федір|сидір)$",
@@ -530,11 +530,11 @@
       "genitive": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           },
           "1": {
-            "type": "append",
+            "action": "append",
             "value": "а"
           }
         }
@@ -542,21 +542,21 @@
       "dative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           },
           "1": {
-            "type": "append",
+            "action": "append",
             "value": "у"
           }
         },
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           },
           "1": {
-            "type": "append",
+            "action": "append",
             "value": "ові"
           }
         }
@@ -564,11 +564,11 @@
       "accusative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           },
           "1": {
-            "type": "append",
+            "action": "append",
             "value": "а"
           }
         }
@@ -576,11 +576,11 @@
       "ablative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           },
           "1": {
-            "type": "append",
+            "action": "append",
             "value": "ом"
           }
         }
@@ -588,21 +588,21 @@
       "locative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           },
           "1": {
-            "type": "append",
+            "action": "append",
             "value": "ові"
           }
         },
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           },
           "1": {
-            "type": "append",
+            "action": "append",
             "value": "у"
           }
         }
@@ -610,11 +610,11 @@
       "vocative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           },
           "1": {
-            "type": "append",
+            "action": "append",
             "value": "е"
           }
         }
@@ -626,14 +626,14 @@
     "examples": [
       "суддя"
     ],
-    "partOfSpeech": "noun",
+    "wordClass": "noun",
     "gender": [
-      "male",
-      "female"
+      "masculine",
+      "feminine"
     ],
     "priority": 6,
-    "usage": [
-      "lastName"
+    "application": [
+      "familyName"
     ],
     "pattern": {
       "find": "^суддя$",
@@ -644,7 +644,7 @@
       "genitive": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -652,7 +652,7 @@
       "dative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -660,7 +660,7 @@
       "accusative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "ю"
           }
         }
@@ -668,7 +668,7 @@
       "ablative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "ею"
           }
         }
@@ -676,7 +676,7 @@
       "locative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -684,7 +684,7 @@
       "vocative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "е"
           }
         }
@@ -696,14 +696,14 @@
     "examples": [
       "рілля"
     ],
-    "partOfSpeech": "noun",
+    "wordClass": "noun",
     "gender": [
-      "male",
-      "female"
+      "masculine",
+      "feminine"
     ],
     "priority": 6,
-    "usage": [
-      "lastName"
+    "application": [
+      "familyName"
     ],
     "pattern": {
       "find": "^рілля$",
@@ -714,7 +714,7 @@
       "genitive": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -722,7 +722,7 @@
       "dative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -730,7 +730,7 @@
       "accusative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "ю"
           }
         }
@@ -738,7 +738,7 @@
       "ablative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "ею"
           }
         }
@@ -746,7 +746,7 @@
       "locative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -754,7 +754,7 @@
       "vocative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "е"
           }
         }
@@ -766,13 +766,13 @@
     "examples": [
       "сіль"
     ],
-    "partOfSpeech": "noun",
+    "wordClass": "noun",
     "gender": [
-      "male"
+      "masculine"
     ],
     "priority": 5,
-    "usage": [
-      "lastName"
+    "application": [
+      "familyName"
     ],
     "pattern": {
       "find": "^сіль$",
@@ -783,11 +783,11 @@
       "genitive": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           },
           "2": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -795,11 +795,11 @@
       "dative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           },
           "2": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -808,7 +808,7 @@
       "ablative": [
         {
           "2": {
-            "type": "replace",
+            "action": "replace",
             "value": "лю"
           }
         }
@@ -816,11 +816,11 @@
       "locative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           },
           "2": {
-            "type": "replace",
+            "action": "replace",
             "value": "і"
           }
         }
@@ -828,11 +828,11 @@
       "vocative": [
         {
           "0": {
-            "type": "replace",
+            "action": "replace",
             "value": "о"
           },
           "2": {
-            "type": "replace",
+            "action": "replace",
             "value": "е"
           }
         }

@@ -2,7 +2,7 @@
 
 ## Правила
 
-Вихідний файл набору правил відмінювання знаходиться у директорії `./dist/rules.json` у форматі `JSON`.
+Вихідний файл набору правил відмінювання знаходиться у директорії `./dist/declension-rules.json` у форматі `JSON`.
 
 ### Структура правила
 
@@ -12,13 +12,13 @@
   "examples": [
     "анна"
   ],
-  "partOfSpeech": "noun",
+  "wordClass": "noun",
   "gender": [
-    "male",
-    "female"
+    "masculine",
+    "feminine"
   ],
   "priority": 1,
-  "usage": [],
+  "application": ['givenName', 'patronymicName', 'familyName'],
   "pattern": {
     "find": "а$",
     "modify": "(.{1})$"
@@ -28,7 +28,7 @@
     "genitive": [
       {
         "0": {
-          "type": "replace",
+          "action": "replace",
           "value": "и"
         }
       }
@@ -36,7 +36,7 @@
     "dative": [
       {
         "0": {
-          "type": "replace",
+          "action": "replace",
           "value": "і"
         }
       }
@@ -44,7 +44,7 @@
     "accusative": [
       {
         "0": {
-          "type": "replace",
+          "action": "replace",
           "value": "у"
         }
       }
@@ -52,7 +52,7 @@
     "ablative": [
       {
         "0": {
-          "type": "replace",
+          "action": "replace",
           "value": "ою"
         }
       }
@@ -60,7 +60,7 @@
     "locative": [
       {
         "0": {
-          "type": "replace",
+          "action": "replace",
           "value": "і"
         }
       }
@@ -68,7 +68,7 @@
     "vocative": [
       {
         "0": {
-          "type": "replace",
+          "action": "replace",
           "value": "о"
         }
       }
@@ -95,4 +95,4 @@ npm install
 npm run build
 ```
 
-Ця команда створить (оновить) файл `./dist/rules.json`, що складається з правил, які містяться в директорії `./rules` відсортованих за пріорітетом (більший > менший).
+Ця команда створить (оновить) файл `./dist/declension-rules.json`, що складається з правил, які містяться в директорії `./rules` відсортованих за пріорітетом (більший > менший).
