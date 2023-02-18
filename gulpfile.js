@@ -1,21 +1,15 @@
-'use strict';
-
-const util = require('util');
-const fs = require('fs');
+const { readdir, writeFile } = require('fs/promises');
 const gulp = require('gulp');
 const replace = require('gulp-replace');
 const macro = require('./macro');
 
-const readdirAsync = util.promisify(fs.readdir);
-const writeFileAsync = util.promisify(fs.writeFile);
-
 gulp.task('bundle:rules', async () => {
-  const fileNames = await readdirAsync('./src');
+  const fileNames = await readdir('./src');
   // Concatenate all rules into a single array.
   const rules = fileNames
     .reduce((rules, fileName) => rules.concat(require('./src/' + fileName)), [])
     .sort((firstRule, secondRule) => secondRule.priority - firstRule.priority);
-  await writeFileAsync('./dist/rules.json', JSON.stringify(rules, null, 2));
+  await writeFile('./dist/declension-rules.json', JSON.stringify(rules, null, 2));
 });
 
 gulp.task('replace:macro', () => {
