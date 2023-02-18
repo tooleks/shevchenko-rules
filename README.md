@@ -18,7 +18,7 @@
     "feminine"
   ],
   "priority": 1,
-  "application": ['givenName', 'patronymicName', 'familyName'],
+  "application": ["givenName", "patronymicName", "familyName"],
   "pattern": {
     "find": "а$",
     "modify": "(.{1})$"
