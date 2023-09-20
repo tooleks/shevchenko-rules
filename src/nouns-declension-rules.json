@@ -2879,6 +2879,76 @@
     }
   },
   {
+    "description": "друга відміна / жіночий рід / м'яка група / на [губна_приголосна]",
+    "examples": [
+      "зейнаб",
+      "руф"
+    ],
+    "wordClass": "noun",
+    "gender": [
+      "feminine"
+    ],
+    "priority": 4,
+    "application": [
+      "givenName"
+    ],
+    "pattern": {
+      "find": "[губна_приголосна]$",
+      "modify": "(.{1})$"
+    },
+    "grammaticalCases": {
+      "nominative": [],
+      "genitive": [
+        {
+          "0": {
+            "action": "append",
+            "value": "і"
+          }
+        }
+      ],
+      "dative": [
+        {
+          "0": {
+            "action": "append",
+            "value": "і"
+          }
+        }
+      ],
+      "accusative": [
+        {
+          "0": {
+            "action": "append",
+            "value": "і"
+          }
+        }
+      ],
+      "ablative": [
+        {
+          "0": {
+            "action": "append",
+            "value": "і"
+          }
+        }
+      ],
+      "locative": [
+        {
+          "0": {
+            "action": "append",
+            "value": "і"
+          }
+        }
+      ],
+      "vocative": [
+        {
+          "0": {
+            "action": "append",
+            "value": "і"
+          }
+        }
+      ]
+    }
+  },
+  {
     "description": "друга відміна / чоловічий рід / м'яка група / на -сіль",
     "examples": [
       "кисіль"
@@ -3797,7 +3867,6 @@
       ]
     }
   },
-
   {
     "description": "друга відміна / чоловічий рід / тверда група / бусел",
     "examples": [
